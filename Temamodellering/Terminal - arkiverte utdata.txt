@@ -1,0 +1,1156 @@
+Last login: Fri Nov 13 09:53:02 on ttys002
+(base) heidikarlsen@MacBook-Pro-de-Heidi ~ % cd ~/Mallet
+(base) heidikarlsen@MacBook-Pro-de-Heidi Mallet % bin/mallet import-dir --input /Users/heidikarlsen/Downloads/Docs\ topic\ modeling --output topic-input.mallet \
+  --keep-sequence --remove-stopwords
+
+Labels = 
+   /Users/heidikarlsen/Downloads/Docs topic modeling
+(base) heidikarlsen@MacBook-Pro-de-Heidi Mallet % bin/mallet train-topics --input topic-input.mallet \
+  --num-topics 50 --output-state topic-state.gz
+Mallet LDA: 50 topics, 6 topic bits, 111111 topic mask
+Data loaded.
+max tokens: 86709
+total tokens: 86709
+<10> LL/token: −9,86524
+<20> LL/token: −9,53808
+<30> LL/token: −9,27771
+<40> LL/token: −9,09982
+
+0	0,1	gjerne afbrød næsten små tidlig skrev skjønt voldsomt bange ulykken omgivelserne styrte nærmede ære umuligt naturligvis gårdens graner forfærdet beklage 
+1	0,1	hans være ligesom snart kunde var sig døtre hænder nede ven fået satte verden ske ønske virkelige rystede hint fulgt 
+2	0,1	ensomme bestandig løb rakte smerte høieste flugt eget svag jorden skjønt lærer vigtighed yde rose uvished forsvinder ytringer røster høirøstet 
+3	0,1	grunden lang gang pigen sidder anede gjør sommeren bryde müllers lagt blevne undertiden virker indfald springe stræben udsigten alskens pleier 
+4	0,1	hun det ham havde ord müller anden mig mand jeg hen fra ser holdt kan kjere den ramm par hørte 
+5	0,1	altfor ind provst klokken møllerup tale yderste lyset falde ser håbet herrer sine skarpe bævende heftighed forundret opdragelse mærkværdigt travlhed 
+6	0,1	som sig det mere ved ham ned gik dag komme selv skulde dig vist mange sådant måtte følte stykke ada 
+7	0,1	tone hverandre forsagelse landskabet sidde langsomt lystighed husholdersken nødt kjerligt bestræbelse færde mindst søstre forslår svaghed mosset glimt bønligt skikket 
+8	0,1	smuk gjør lige skyld ved burde aldeles syn drev altid friske fruens sligt pause ret piger lignende overordentlig fornemmelse blege 
+9	0,1	menneske sofies tage brandt forstand almindelige damerne tanke amalies uret skjød hundrede bunden hoved ømhed passer man hjertet henne modbydelighed 
+10	0,1	altid gange smerte brandts røbede menneske kommer kvindelige tjent sænkede rødmende åndeløs nået angik fortabt gratie liden tildels behøvede hanne 
+11	0,1	siden hvor næsten sidste bedre blik den hørt tale ligger bordet tør mer vort begge står han søge blive fortælle 
+12	0,1	bliver selv men det mod jeg enhver fader morgenen louise talte andres føler andre vred lykkes rigtignok skikkelse tabt vinde 
+13	0,1	men til min kunde igjen når skulde ved denne hun dem også sine synes bag idetsamme kastede lykke smukt fulgte 
+14	0,1	ikke der den har mig hende jeg som det til med kold mod gjøre nok hvad lille tænkte bleven mit 
+15	0,1	men dette måske sit gamle neppe hvorledes tro mindre alle dage vis tid provsten kold slog fik kort kun enhver 
+16	0,1	dybere gange ansigtet angreb sød dermed magt forsømt findes angår ramm såes eiendommeligt trak mener husene års uventet blevne trænger 
+17	0,1	nemlig mennesker lære sank tilføiede øiet tid vinduerne blå måske usandhed ryggen dammen savn draget lykkeligvis umærkelig vækket udrydde affekteret 
+18	0,1	vakt opad forstyrre gjælder stødt himmel sfære skuet mærkeligt pakke hængte sørgelige ialfald opdage anden overbevisning opfyldte hænger årn end 
+19	0,1	sig end det disse eller sagde netop hende til når hjem han fru rigtig gjorde anden kristiania kunde ganske vort 
+20	0,1	dem var denne aldrig kommer mellem nok den tog sjel hende mod begyndte alle til pludselig kjender høre lykkelig mest 
+21	0,1	ved hvis ind bedste sig den barn selv hvori troede lykke samme lyst holde gang dyb sorg til var syge 
+22	0,1	værelse vore lidet kjerlighed måtte samtale hinanden midt ægte synge alleen frisk dragt brudt også drog fordringer virksomhed datter tilhøre 
+23	0,1	vilde hendes dog man sofie gud der var som stille til godt hjerte huset alene eneste gjorde øine taget hus 
+24	0,1	side greb aften volde griber pligter lidelser porten tåle bærer skuffet tiden sin beseire blanding synneve besluttede nydelig selskabelighed værk 
+25	0,1	synet taus bestemmelse troede lokker smukkeste spillede sorte rolighed forbauselse vide sine heftet breien sødskende rørelse taug blotte vigtige pas 
+26	0,1	han dog hos jeg sit først tror til edvard lagde hun hånd søgte langt dit bort viste undertiden lade råbte 
+27	0,1	jeg kan ham der til amalie deres vil unge ikke alt lidt sin hun gang thi efter måtte finde enhver 
+28	0,1	sofie hendes glæde sig virkelig egen man kommen tænke endog nye hjemme spurgte vær timer naturen havde aldrig drev idelig 
+29	0,1	eneste lad atter vinduet mangen danse ting skrig fremmede reiste dag iver suk smule mærker ringe læste opholdt drevet vakt 
+30	0,1	efterat dunkel slægt ene fast natten altid dannelse bemærke vove ligeså faders aldeles nyde vemodigt skyede glatte gjælde båden skygger 
+31	0,1	endnu var blev dig blot ind vel nei gamle følelse hun dertil andre brandt dine sammen gammel svarede givet første 
+32	0,1	frem forhold fandt påfaldende virkelig til dig hvert morgen historie ven stivt mund voksen styrtede ventede taler brav levet letsindig 
+33	0,1	vil havt god hånden ulykke hvad ved art med skulde frygt men livets sin kommet drømme smil kolde luft mild 
+34	0,1	man engang måde moder forbi træk idet været får hvad omkring mener lys ada plads skjebne elskede spor førte brandt 
+35	0,1	magt søsteren sagte oplevet bøiede gift huslige sidste fylde støtte sig sådanne begavet spirer drømmer sammenhæng samlet elise skik hvis 
+36	0,1	den jeg havde med sig men uden hele meget alt ganske til dem ikke kunne ung sandt seet dagen tænker 
+37	0,1	reiste fandt tusinde ladet tilstand anledning lignede caspers kjendt livs natur kinder træt aldeles høit hver står ulykkelig bagefter glemte 
+38	0,1	intet hvad din havde fruen går imidlertid skjønhed inden haven livet yngre engang margrethe bragte hvilede gifte drøm med tilbage 
+39	0,1	drømt verden solen øvrige husets tante kreds jeg følte forstyrrede græde opfatning voksne bolig afsked kampe taber nådige formiddagen bevidst 
+40	0,1	noget sagde været sine hans syntes ingen første andet derfor georg lille blev kjendte gjort fået indre blandt fuld tanken 
+41	0,1	vidste alvor tilfælde møde nåede tilværelse hjælp sædvanlige fornøielse endelig erfaringer lykken forgjæves dybe almisse uge besvaret træer sådanne urolig 
+42	0,1	der kom denne havde kun jeg det være med selv den således tilbage ikke lorenz hvem deres sad gården brøcher 
+43	0,1	dette nogle længe med hun børn fordi jeg amtmanden bare hvad nei tak fundet selv ellers farvel ansigt tilmode liden 
+44	0,1	fra hvor havde som kunde slet hun bevægelse andre trådte stor søster dybt slags dengang hver sig gik sålænge imod 
+45	0,1	liv endelig straks dette dorthe ofte veien alvorlig men udbrød mor begge husker sig tunge lyd møllen bekjendt knæ ældre 
+46	0,1	han var det med jeg skal alle stod dem nogen sådan har allerede stakkels gjennem lod rein ethvert landet gået 
+47	0,1	som sin det efter har sige han mine den øieblik før vor havde medens sagt store væsen gav gode døren 
+48	0,1	moders stockholm brede lære hjælper mekanisk strenge berolige formåede forsømte glæde bragt arter muligheder noksom glæden hyggeligt hede pålidelige opdagelse 
+49	0,1	var også hun ingen det pige den ret blive hans tid slige hin stilling stort muligt dame forekom sofies gjennem 
+
+<50> LL/token: −8,94923
+<60> LL/token: −8,82945
+<70> LL/token: −8,75402
+<80> LL/token: −8,687
+<90> LL/token: −8,63527
+
+0	0,1	måde vilde tidligt bekjendt skred foregået provst syn vakker skyede svaret himmelske seddel travlhed grotten opdage husets skikkelig lindring opgave 
+1	0,1	snart fået dorthe nede bad nyt tænke forstå seet gården kald sangen otte udstødte arm svaghed øinene stærk betragtning omhyggelig 
+2	0,1	ude formelig mængde dukke kraft sæteren evig springe inderlig ilet skrækkelig præstegård prosa hellige gaves itide skete læg sommeren tages 
+3	0,1	tabte fat duft sjels gardiner lægen usædvanlig verdens eiede såkaldte beskeden modsatte underligt ønske trykket baggrund skaffe tålmodighed lysten forskende 
+4	0,1	hun havde det ham fra kom anden eller müller ord mand ser den holdt kjere hen hørte par hvorledes foran 
+5	0,1	tilstede pris virkeligheden kirken bryllup smerteligt brystet væggen yndig elegance lettet modløshed uskyldigt smerter situation kjern lystighed blinkende elise bedrøvet 
+6	0,1	sig selv ved mere som ned dig måtte dag gik disse komme skulde ham fik ligesom træk sådant derimod forstår 
+7	0,1	blade ønsker trist passe udtryk gulvet dobbelt lokker beklage førend norske berolige sorgen iaften tankerne dødens giv måder betro shawl 
+8	0,1	aldeles begribe villig sæteren græd fuld oprør vemodig blomsterne hjørnet synger dannelse sommer fruens herlighed drømmende tomt overraskede fatale sidste 
+9	0,1	være tørre brændte byrde amtmandens valgt skygger lidenskabelig uvillie udtrykke tabe mad erindre brav fruentimmers uleilighed papir forkyndt fødes sund 
+10	0,1	trænger lidt stenen vanskeligt mine stak moder stockholm optaget græde taus bedre kjerlighed forestillede slippe hente forvinde øde sandelig sort 
+11	0,1	siden brøcher bedre bordet burde sang vel står sagt edvard lyd tårer hvorpå åndelige befandt offer idetsamme lukket beundring tilbringe 
+12	0,1	heller indre lykkedes ramme tilligemed lide samtaler gjort blege omrids færdigt vidst ramms hvormed min historien hensyn opfatning nævnte husets 
+13	0,1	men denne kunde ved igjen når skulde sine deres min lykke fruen begyndte eneste hun synes egen imidlertid hånden amtmanden 
+14	0,1	ikke den der til det med som jeg har mig hende hvad kold også mod nok lille kun gjøre nogle 
+15	0,1	dette tid lorenz tro mindre holde dens kunnet vist tanker smerte synd moder således forladt tale fra dernede iver stilling 
+16	0,1	sank hvis veltalende forældrene sjelen frugt tro heftigere besluttede erfaring ære magt føre tryg lydløst spring ligesålidt kurve herligheder uheldige 
+17	0,1	tillid klæde frue stående portræt fine vinduet vemod ubehagelige rulle simple bruge mos hemmeligheden luft provsten stumme afspeilede affekteret musiken 
+18	0,1	spillet vækker snak nærværende mildhed sikkert bestræbelse friskt rummet situationer foragte ligesålidt sko værk sten penge ler faren mulighed laster 
+19	0,1	sagde end men sig disse netop gjorde når mellem eller til hjem mange luise rigtig vort sidste altfor nye frygt 
+20	0,1	aldrig hørt tale kjender mest smukt danse børn flere bemærkede skikkelse svarede moderen første smilende rig udbrud forhold søn god 
+21	0,1	bedste elskede mere almindelig stillet lyttede behøves står iveien mener træerne denne rasende momenter rolighed pladsen færde brev sådant oppe 
+22	0,1	sat yderste glemte bare vildt skinnende sider frelse ubevidst henvende bliv vove tilfælde tillod sligt længere hjemme resignation lyttende eks 
+23	0,1	sofie man hendes vilde dog næsten allerede stille gud lidt hjerte øine ham alene huset ene hus godt vis ting 
+24	0,1	vakt såre begynde tunge søde erfaringer bevogtede timer marken fornøielser billedet fjerne breien husene høire angst fraværende væsens eftermiddagen båden 
+25	0,1	grunde derover voksne hemmelig særegne forlovet trængte betydning tante humør stumme rein kammerater hvilet anger enig eiendommeligt fremkaldt stråle faldt 
+26	0,1	intet måske hos først høre smuk hånd viste dog taget undertiden lagde bliver brev lade gud greb art aldrig faldt 
+27	0,1	kan vil amalie gang enhver blive sjel fru ligesom thi menneske finde hvormed tilbage straks skyld virkelig næste tror tør 
+28	0,1	glæde kommen virkelig hver endog drev sted hjemme turde tænke skjulte stolthed historie friske skrig finder nåede talt naturen forstod 
+29	0,1	fremmede veien anledning oplevet hendes stykke gid fine krog fjern bønner længesiden parti ide blevne livlige øvede hænderne hine hesten 
+30	0,1	kommet tabt forbindelse fri henne rundt vendt akkurat begavet skuffe forvirret flyve sende billede hinanden pas rette smeltende grusomme tegnede 
+31	0,1	endnu ind blev gamle blot nei dig vel brandt derfor andre store følelse dertil havt første verden gammel drog lykkelig 
+32	0,1	lære ske syg gjentog lært munden igår begivenheder mon fatte seks inderlig røbe hvilke forhold reins forinden forvirrede vogt resigneret 
+33	0,1	sagte liv glade røre form altsammen dannede adas møllerup billede virksomhed elendige hændte kjøn skjøn tiende erklærede sygdom landskabet virke 
+34	0,1	engang måde idet forbi fandt bliver får moder ventede lys mer hin drage roligt vedblev trods fare kaldte breve man 
+35	0,1	sikker bede forklare rev linier uge ada ånder margrethes dybet lemmer rykkede større blotte håber tiden tre give lyder hist 
+36	0,1	sig den havde alt uden hele ganske jeg meget men kommer med tog vidste kunne sandt indtryk rolig langt sådan 
+37	0,1	bord lyst eder vågnet land mumlede simpel provsten støvet skjebnen almindeligt forlovelse skoven bugt ada midten dobbelte fortrinsvis ceremonier råder 
+38	0,1	din går inden haven mangen hvordan tilstand tiden begge egentlige idetmindste piger døde synet valg væsener besvaret virkelighed grad ligget 
+39	0,1	deraf helt øinene bedst føre fremfor fordums støtte møllerup bekjendtskab taus stand lykkeligere yndigt ungt stået længsel speilet fromme guld 
+40	0,1	hans noget ingen været andet syntes gjort siger værelse neppe lidet hinanden søster begge sagde spurgte imod døtre imøde mor 
+41	0,1	drevet ser udbrød opsigt følger farlige fod spise stød yngste træ forbedring anliggender synke pligt beskjæftiget indtrådte forstyrret revet forlod 
+42	0,1	være sit denne kun altid hvem således tilbage selv havde lad råbte kom hvilket deres gården små hovedet god lang 
+43	0,1	dette længe børn reiste tak fundet ondt bag blev klokken ung dit efterat begreb herligt dansede skade norsk forsikrede fik 
+44	0,1	hvor slet troede andre bevægelse kort trådte bare dengang omkring edvard blevet umuligt nemlig satte stor egne elsker stå karakter 
+45	0,1	endelig atter kjendt damerne lader møllen vindu erindring hemmelighedsfulde straks indgangen forekommer gåde dømme første negte dunkelt stå forklaring koldt 
+46	0,1	var han det jeg dem skal alle stod min nogen medens sådan unge havde gjennem stakkels søgte lod sit dage 
+47	0,1	sin efter det sige mine dem øieblik ret før vor hvis blik liv pludselig har liden frem væsen gav gode 
+48	0,1	skrev derinde mindste bøger lampen glimrende gift ordet alvorligt ingenting student støvler stole venlighed ligge uheld land fortæl overlegenhed samle 
+49	0,1	sofies pige fordi slige gjør side nær sidste bringe ingen dagen kjerlighed mener guds slags stort stirrede reise almindelige alder 
+
+<100> LL/token: −8,56733
+<110> LL/token: −8,53895
+<120> LL/token: −8,50748
+<130> LL/token: −8,48403
+<140> LL/token: −8,47896
+
+0	0,1	møde levende syntes gjenstande døre tabe hverv andens samlet sagen måske liggende forene særegne krænke led bestemmelse besat anvende høirøstet 
+1	0,1	fået breve forrige klang hustru komme sofaen knæ omkring lig hest farvel god caspers lov dømme skulde punkter troen fattige 
+2	0,1	vendte færdig rystede hvor himlen bar støvet vakt døtrene stockholm tilstede ordentlig trøstede vover tilsyneladende drømmende pris egenskab optage alvorlige 
+3	0,1	natur hine gange høieste fordi eneste blanke pigen fremtid arm nærhed udviklede livs idelig fat frue vanskeligt blandede svag ledsaget 
+4	0,1	hun havde ham fra det kom været anden ord müller eller mand hen ser vilde ramm bedre sad hvorledes havt 
+5	0,1	tænke mærket hvorpå rigtignok sneg graner skjønheden lovede afsted reisen duer måle omgivelse sover bor glade forreste klæder eventyret faders 
+6	0,1	selv dig sig ned måtte mere dag glæde komme fik nei sådant bevægelse lige træk forstår dengang smukt øie liden 
+7	0,1	bede dør fyldte uro lignende ansigtet klar gjentog fryd hindrede skabning hundrede omtalte stærkere tilhørte hos kyssede klinge engel kastede 
+8	0,1	timer mangler endog råd stå ubetinget blomsterne juni fæstet forsvandt lys sørge glade udsigten fiske elegance derpå stine lægges spørgsmålet 
+9	0,1	atter mærkede frygt deiligt beundring dammen undgik strømme daglig livlig adolf tingen agtelse mismod stødt forladt kjereste skrevet daglige husets 
+10	0,1	lukkede talen deilig godhed gjenstand mine hemmelighed fødder erindring vedblev goder teppe sagte øde hjørnet reist hin rolig pludseligt desuagtet 
+11	0,1	luise høre dybeste lykkedes stedet besøge bævende lave fordringer utålmodighed såvidt beskjeftigede udover bryder foræret nærer grusomme legeme delte fryd 
+12	0,1	syn styrke tabt skarpe udmærket lette spørg skygge hvert derinde gråd vakte mund beskaffenhed uheldige bestræbelser tillid forvirring alskens bare 
+13	0,1	ved men denne kunde skulde igjen når deres min sine eneste snart fruen pludselig lykke amtmanden smuk dagen imidlertid hvordan 
+14	0,1	det den ikke der til som jeg med har mig hende hvad kold kun mod også nok mere lille næsten 
+15	0,1	dette tid tro lorenz mindre egen finde stort vor forstod tanker synd stirrede kommet smerte påfaldende hvilede forladt ældre forstand 
+16	0,1	hvori stenen ramms stammede drevet fortvivlede drømte vækker pinlige velsigne malede bedste lidenskab arbeider ydede fremtiden forlegenhed gratiøse sæder skaffe 
+17	0,1	lyttede angår forundret tre sidste nærme blevne vundet kors åndedræt afsnit mængde råb elsket mistet præstegård hvorhen svævet fordomme opvokset 
+18	0,1	lyst korte ældste levet brudt ham henne vare høiere lokker bliver træder dorthes resignation hængte gjaldt bestemte uagtet passede kone 
+19	0,1	sagde end disse netop eller hjem mange sidste noget gjorde mellem når rigtig edvard thi vort altfor nye bare skyld 
+20	0,1	aldrig sofies tale følte børn aldeles hvide deraf danse haven venner vore bemærkede husker åndelige vindu penge kald fortalt kræfter 
+21	0,1	dyb blå dansede nærmede indgangen fuldkommen ungdommen gået levede sider indre brændte beholde talent hverandre tvivlende hvorved fødselsdag lune portræt 
+22	0,1	magt spil begynde kvindelig ulykke bragt sandsynligvis ædle ane fornøielser øiebliks greben uforstyrret beundre lokkende armen sig uvilkårlige støde søsterens 
+23	0,1	sofie man hendes dog vilde blive allerede gud lidt stille hjerte øine huset alene altid holdt ting hinanden vis hvilken 
+24	0,1	besøg tre naturligt skjød øvede optog giftes straf rolighed fordums skuet opdragelsen skriftemål anelse tredive skjæbne værn træerne dødens hvilet 
+25	0,1	lang søvn mildt uhyre hjemmet simple børnene grunde synke såmen forsikrer afbrydelse ilet opad fuglene kloge brøchers dybet rum tidsnok 
+26	0,1	intet måske hos bliver ene slige taget give får engang søster drev art høre greb fordi lade når hånd udbrød 
+27	0,1	kan vil ganske enhver amalie fru gang øieblik denne sjel lagde hvormed andet kommen straks har plads turde fremmede næste 
+28	0,1	fylde forsvunden skrive lidelse frelse speil tidligt egn udholdenhed dunkelt troede tillader fødder overfladisk elise kirke strax års behageligt lide 
+29	0,1	piger fordi tilfreds står hvergang hurtighed ligge indenfor herskabet såes alvorligere grotten betragtning udstødte svare boede sikrere åben skrin agter 
+30	0,1	streng begreb glæder hvordan beslutning gjælder caspers spring tynd festen nærværende veiret vrede sige pleie enfoldig eiendommelig spadsertur forvildet savne 
+31	0,1	endnu blev ind gamle blot andre derfor nei følelse brandt store dertil hørt ofte moder gammel drog neppe lykkelig svarede 
+32	0,1	tænkt fruens flytte stræbte afslag vil virksomhed gardiner tilstrækkelig trække papir faret beskeden forsigtig virkelighed midler ligefra bugt sindsstemning forbigående 
+33	0,1	nemlig eget skjønne hovedet fortvivlet hvis sov onde moders begge krævede tal overbevise leilighed omrids husker svage venlige forfængelighed frokost 
+34	0,1	engang måde gang høist tante margrethe enkelte gjorde hvor selskabet røre gjester syge fast søstrene elendighed flor mærker tolv lovet 
+35	0,1	støtte dagligstuen lærer brud lærte uge tages skjælvende sjels bekjendtskab tidligere træthed imorgen takket helst varme udstyret dyrebareste bedækkede møder 
+36	0,1	sig men alt uden hele meget pige kommer første ganske vidste endelig kunne slet inden frøken langt undertiden ven indtryk 
+37	0,1	hjertet stumme udbrud umuligt menneskelige tilstede slå søgt endog skuffe falmede vemod omgivelserne vove pibe såmange evige betage letsindig bærer 
+38	0,1	din mellem tak fuld angst tilstand stærk begyndte uvillie sort hævede begivenheder skrækkelige længes ole toner forekom karoline døren personlighed 
+39	0,1	hårdt jorden hente pianoet vinduer fremad forgjeves afsked skete skygger hensigt lade ubehagelige eftermiddag vælge nærmeste bakken gule skylder nar 
+40	0,1	hans noget ingen syntes gjort siger andet seet dit lidet begge spurgte nød sætte imøde søstre neppe anderledes lys overalt 
+41	0,1	sendte der forandret trin inden bord blomster sjelen mildere forstyrrer råder ligeledes derover ubevidst triste forventninger vanskeligere dannet modtage samvittighed 
+42	0,1	være således hvem denne vor holde troede kjender råbte lad gården god hvilket små brev sang hele dybere stuen landet 
+43	0,1	længe naturen tak bitre din ubegribeligt overlegenhed væggen foragt tids turen klædning heller indrette lidet blev mageløs kaffe sukke bitreste 
+44	0,1	hvor forbi trådte bad gang slet satte løse omkring mangen stå blade fader lyse umuligt åbne musik krøsus forskrækket røbede 
+45	0,1	fire damerne klart brev gav trak søstrene smertelig egne hidtil oppe himlen fruentimmer klokken nødvendighed dannelse blad lever klage forundring 
+46	0,1	var han jeg dem skal alle sit nogen min sådan unge amalie stod medens stakkels virkelig godt det gik vist 
+47	0,1	sin efter sige mine det vel ligesom ret før hvis tror liv først blik gjør ansigt gik faldt sagt væsen 
+48	0,1	frisk hid skulle forvirret ukjendt skjebnen dernæst bliv pen stene alting foredrag familierne fatte subjekter glemme sygestuen frygte gjælde behøver 
+49	0,1	reise slags guds synge sådanne derom først træffe værd trappen bør forklare herefter truffet trods side glemte rædsel passer præg 
+
+<150> LL/token: −8,46502
+<160> LL/token: −8,45993
+<170> LL/token: −8,45059
+<180> LL/token: −8,44785
+<190> LL/token: −8,45084
+
+0	0,1	tænkt menneskelige udviklede sad undgik tilfældet tilstede flor voldte lys billedet største barnlige håret træder lina ifærd væk trøste berede 
+1	0,1	stakkels kjendte danse tjeneste hvid tynd goder reisende stykket heftige ynde stand ligeledes lykkedes slip hilset henvendt regning trække fordele 
+2	0,1	bevægede virke fat hast voldt norsk vundet arbeidet døtrene synet mangengang falde ubetydelig ensomme elev fortæller kunst spire bevingede overbevist 
+3	0,1	fri kald egenskaber streng hang kvindelige veg hinanden gjester anskuelser tåle vrede erindre forløb vrå foregik naturlig vore vei luises 
+4	0,1	hun havde ham fra eller kom hvor været anden müller skulde ord mand hen ser bedre ramm kjere begyndte går 
+5	0,1	vred tilsidst bevidsthed madame uro mild s'gu sover støvet kjendt brug blomsterne høilig forud god skjælvende berusende margrethes ringeagt vigtig 
+6	0,1	selv dig ned måtte dag sig glæde min komme seet allerede sådant foran lige forstår træk børn halv egentlig man 
+7	0,1	stærkt tegn overraskelse mands kristiania umuligt forgjeves gid farlige huslige stole tilside øie forsvare fuld vidst kjender marken underlige fremtiden 
+8	0,1	smukt vise viser hundrede hvorfra griber lukket dorthes duft opvokset velsignede gjenstande stole forstyrrer hanne forekommer mærket pen ler kolde 
+9	0,1	sag nedlagde gjælder beder trøstede hvilende henimod krævede beskuelsen møder streifede utrættelig tvinge fremhævede vogt spørger sygestuen berører busk tætte 
+10	0,1	kaldte sikker opgave dæmpet broget fuglen almisse skulle umuligt afstand sprog skyggen nødt åen trykkende usynlige bort bog hvælvede indgjød 
+11	0,1	besynderligt akkurat mærke børnene latterlige forlanger bøiede middel ubeskrivelig drive stammede igår gratie længsler gulvet føre sørgmodig spadsertur ædelt ringere 
+12	0,1	foran fruens sandhed sat stum skrive forskjellige luft mama forstenet gribe blikke fjerne uforstyrret tvivle enden ansigter død ment lyden 
+13	0,1	denne ved men kunde vil når være min deres igjen sine intet skulde eneste fruen snart pludselig gav amtmanden egen 
+14	0,1	det den ikke der jeg til som med har mig hende hvad kold mere også kun mod nok måske lille 
+15	0,1	dette lorenz finde tid hvilket synd kommet det høieste smerte syg dragt fuldkommen falde del skjule synes ved skjær glade 
+16	0,1	beundring ordentlig byen lade sendt synke tørre varm såmange stue livslyst tilsyneladende bakken spidsen hesten spille begeistring tillidsfuldt rolle læseren 
+17	0,1	kreds lyd hvordan såmeget giv dyrebare opsigt bemærkede ulykken thi længsel ivrig punkter skat lidenskabelig taus ungdommelige endt høirøstede skygger 
+18	0,1	naturligvis synge rig forklare hals opfyldt derover hjemkomst sag sengen luft bygdens kjerlige tændt punkt sat klage nedenunder mangt duer 
+19	0,1	end sagde disse netop din tror tid mange sidste hjem faldt sandt edvard altfor vort skyld bare stort kunnet derom 
+20	0,1	tale bringe løse husker aldeles dybere tilfælde rene lykkelig skoven nær hår røre langsomt damerne hvergang bar påfaldende bolette heri 
+21	0,1	befandt stumme bestemmelse krøsus ivrig uge betingelser punkt begribe rystede fornøielser indfald ophøre usædvanligt toppen inderligt nødvendigt omgivelserne flygtede hest 
+22	0,1	fortvivlet morgenen menneskene forstod kommet styrtede tilføiede usynlig halsen derimod mildhed bittert fattige smukkere blussende forleden fem vel både eget 
+23	0,1	sofie hendes man vilde dog gud blive lidt altid lykke øine hjerte allerede stille alene hus vis først ting hinanden 
+24	0,1	uhyre sank længere opholdt beholde strid hævede manden hunden boede ledsaget herlighed rolighed byen bagatel ydmyghed studerkammer tryg springer strikke 
+25	0,1	kanske mangler lagde ånder krogen syede ophøiede mærke kontrast virkelighed hemmelighedsfulde sort pludseligt lyttende tildels behøvede måder behøver halt hensigt 
+26	0,1	hos syntes længe bliver fordi give straks slige høre hånd bevægelse taget søster haven talte drev gamle intet får art 
+27	0,1	kan amalie gang øieblik andet enhver fru sjel hvormed væsen lagde stykke turde fremmede kommen plads lade fulgte forekom ganske 
+28	0,1	tillige dybeste idelig sted side iveien ydmygende øde fuldt forvirrede overlegenhed sofaen dristig tøiet følgerne hjelp behag forskjellen glemte agtet 
+29	0,1	provstens forretninger sådan foregået valgt støi sandsynligvis breve slumrende halve frelse medlidenhed dansk stiv døden hente forsæt lovet skriftemål nogenlunde 
+30	0,1	bryst svag høi dømme evige trukket bruge smerte forsagelse tabe havestuen sandelig mode søndag udråb erfaring gåde ofre anderledes barn 
+31	0,1	blot gamle nei andre endnu ofte blev moder dertil verden ind uden hørt gammel svarede tro stansede louise rigtig varme 
+32	0,1	lys høit angår alvorlige istand damerne unge forfærdet mørke modtage slutning vandet efterlod bød lokker bønder løftede vænnet gardinet kvindens 
+33	0,1	væsener rigtigt jer vove beskeden hjemreisen ubegribeligt undre fletninger omhu spilde tingen lettelig forefaldt fødes udfordrende fine digter minka angik 
+34	0,1	engang måde luise åbne par spørgsmål tanken lyset lader bestandig dunkel hine fast værre forstod derved anledning feil trænger træt 
+35	0,1	hvortil ældste tillid bønner søde benyttet blinkede slå tænk noget luise græd resigneret iført guld lukker smerteligt åndede skete løs 
+36	0,1	sig men ingen alt ind aldrig hele ganske blev hvor meget pige hans første kommer således brandt vidste endelig følelse 
+37	0,1	satte hvorved lyttede iver egen uro skygge bestemte møllen dalen ømme siddende spørge berørte værdt ironi umulighed begivenheder lære arbeide 
+38	0,1	ulykkelige samtale frem gjort omtrent meget brandts væg skylden ilet rødmende usigelig ungdommelig itu begyndt skikket tilstå minut forskudt rasende 
+39	0,1	altid mon aldeles formodentlig ligget glimrende almindelige beregnet pause hørt herefter bare ufrivillige dels lykken endt kaldt tal slippe venskab 
+40	0,1	noget hans sagde stakkels siger neppe gjort hvorledes tro begge lidet slags bag drog trådte stilling holdt rolig værelse oppe 
+41	0,1	læst vende taus finde bryder klokken tone hemmelig udtrykke forekommer aftenen præsten yndige træde nøie nære tømte fald hede sag 
+42	0,1	være vor gjorde hvem følte thi lad små råbte næste gården tanke vinduet blik dame timer forladt talt lykkelig styrke 
+43	0,1	elsket komme hvilede besynderlig mors formelig art stund situation passende erstatte fruentimmer hvælving dør beboerne forvirret røster beskjæftiget simple himlens 
+44	0,1	viste forbi stå mærkede oplevet læse vente ske nærmere anede visse hustru erindring styrte tilbringe familie stedet sætter tone tilligemed 
+45	0,1	ondt blevet hvorpå blanke forundring post harmoni øieblikke rygtet optaget dog pleie synneve tages veninde villie trængt båden mad veltalende 
+46	0,1	var han dem jeg skal alle sit endnu stod nogen gik sådan man mellem unge godt virkelig medens vist gjennem 
+47	0,1	sin efter mine hvis ligesom vel ret før sige liv derfor gjør ansigt ung fik søgte sagt gode først kjender 
+48	0,1	tomme førte kjerlighedens sænkede vold røbe giftes såkaldte skaffe fik kommen anfald bøiet graner hesten forsikrede inderligere sjelsstyrke uværdig svagt 
+49	0,1	forstand forvirring tilfreds glemt betydning tabte husets friske sluttede temmelig nyde mængde vemod opdaget virkeligheden breve hvormange lige rødt osv 
+
+<200> LL/token: −8,43883
+<210> LL/token: −8,43527
+<220> LL/token: −8,4348
+<230> LL/token: −8,43759
+<240> LL/token: −8,43552
+
+0	0,1	begribe del idag gribe pligter skabning kjerlighedens istedet voksne lovede forsagelse roser husholdersken alvorligere fald optaget banke rose rådede heldig 
+1	0,1	midt drømt kjender kjere glimrende vertinde udsigt kyssede oppe dansen lykkes havde overmåde derinde vigtige måde øiensynlig mørk iagt nærværende 
+2	0,1	sat gut barns sank rædsel udstødte syn skred sødt bittert udtalte forståeligt færdig fornøielse opdagede sprang forklaring erfaret sal behagelige 
+3	0,1	tegn gjorde besvaret fortjente skeet udvortes svaret forlanger nød strålende skyede tingen led barmhjertighed venligt veir hænder ubeskriveligt plet syn 
+4	0,1	hun havde ham fra skulde hvor kom eller anden ord amalie mand ser müller bedre ramm fandt børn vore hørte 
+5	0,1	gift reisende vundet mødt tilside tillade ansigtet møllen træthed sådanne bemærke rørende udbrud beundre overraskede hvidt fortjent tids lette bagatel 
+6	0,1	selv dig måtte allerede dag glæde bedste sandt sådant finde dens brev talte lægge øie idet førte stærkt når skjønt 
+7	0,1	umuligt rakte tomme passer hverandre pige godhed angreb omgivelserne vinduerne talen hvorfra ole brød værelse omgivelse draget lykkeligvis rasende seddel 
+8	0,1	usynlige tante skuffe voldsomt udbrud personlig situation misforståelse blad døden beskaffenhed udmattet selskabelighed efterhånden talen stansede varede alle hjerteanliggende bevidst 
+9	0,1	sand løfte stenen sætter fast naturligvis amalies opdaget kommer kjendt kristiania kirke mændene inderlig båden ubevidst altid engang gårdens lampen 
+10	0,1	spil slige scene drømte offer sagen hint del vildt vinden hel brast gjort skat omtalte eftermiddag ubegribeligt revet svævende førstningen 
+11	0,1	sålænge yde maria nylig sætte knæ gang usynlig spørg dybeste nået bestod yndige tilføiede tilståelse tilhører ligget søvn tilgiv dansede 
+12	0,1	hvilke bedst følgende nærværelse smag vrå håret stolthed forretninger middag lægen aparte intetsigende bekjende skrevet familien denne glas hvælvede mistet 
+13	0,1	men denne ved dette kunde vil være min når deres sine intet igjen gjorde sidste fruen pludselig hos amtmanden egen 
+14	0,1	det den ikke jeg der til som med har mig hende hvad kold mere også kun mod nok uden ned 
+15	0,1	kommet indre dette lykken synd dragt fortalte friske råder dermed temmelig forbindelse jorden evne hør forvirring tiden lignende urolig tidligere 
+16	0,1	lide lykkelig forlovet sagde byen formelig varme nytter forfængelighed bange slægt hør tjente klinge passende lege indtaget kvinderne knyttede inderste 
+17	0,1	alder mål farlige hals klæde passeret underlige arter mit ømhed kammer jordbund damerne betragter ytringer betage bogen synneve eventyr sørge 
+18	0,1	menneskene lidende parti fristelsen flyve blot hvo interessant vendt taug halve bese tilflugt delikate maskine nære huske afslog følgerne mistroisk 
+19	0,1	sagde end disse netop tid din hen tror hjem mange faldt søgte edvard vort bare altfor skyld derimod kunnet hørt 
+20	0,1	aldeles huslige virkeligheden deiligt åndelige skygge manden brudt træt førend børnene længes tie broch drøm musiken elskværdige fuld udseende omtale 
+21	0,1	tilstede hvile lokkende yderste tilstand blandede fjerne åen betragte tænker læse adolf følger redning åndedræt bevidsthed brystet flygtede tøiet ansigter 
+22	0,1	sætte elsket dels findes lig styrke klage forsvare breve ømme uskyldige skik særdeles livets måle amtmandinden lang gjerning støvler istand 
+23	0,1	sofie hendes vilde dog man noget engang gud lidt først lorenz altid lykke eneste amalie alene hinanden par eller müller 
+24	0,1	traf vandrede kolds gjentog bønner værelset vor mørkt nåede øieblikke gjenstand heftige søndag vågnet ironi skarpt fordybet vende fortabt søstre 
+25	0,1	tillid høitidelig evige daglige tyst medlidenhed kold henimod margrethe sin brændte tilfældigt helst forløb betegner hvorover regelen vandret læberne fasthed 
+26	0,1	hos bliver give hånd råbte lad søster slige drev mine høre vide påfaldende hvorpå ansigt trin taget kastede hvilede åbnede 
+27	0,1	kan øieblik gang andet enhver fru lagde væsen bevægelse sjel kommen stykke turde fremmede plads seet lov bragte ulykkelige hjerte 
+28	0,1	louise strid gjaldt nytte ældste kinder nedad stræbte opgave mærke otte rene oplevet tabe valgt blinkede vanskeligere forbauselse nødvendighed hvilende 
+29	0,1	vakt vred søstre fremmed forsøge kampe sangen uvillie passede kvindelige ulykken plage dyrebare blomster forrige pålagde halt fuldt uventet vente 
+30	0,1	trængte falde sluttede lyttede grønne levet tider vinduer betog person bevidstheden derfra jordiske linier stue bispekammeret broder blussende trykket forelskelse 
+31	0,1	gamle blot nei andre tro ofte siger straks dertil godt langt han verden rigtig hvormed svarede død lade flere selskab 
+32	0,1	styrtede egentlige reisen opholdt tilbringe billede ovenpå mekanisk simple forlade feighed dunkle derhen siddende opdagede slumrende umærkelig yndigt kjerligt bestræbelse 
+33	0,1	kulde skjønne time sidde møde tabte land begyndt bestandig behag spørge vold amalie slige blikket forstenet usigelig lave timer eks 
+34	0,1	godt enkelte hvor rev deri blanke hemmelighed kanske beskjeftiget skjult mener tro langsomt menneskelige vilde blege samtaler fem grønne mors 
+35	0,1	strålende yngre kjendte tidligt afslag veltalende itu passe interesser sag sende forsvundet rakt rigt nævnt anfald sygdom scenen nået rose 
+36	0,1	sig hans men ingen ind blev ganske aldrig meget hele første således brandt hvor vidste tale gjort inden synes ven 
+37	0,1	satte kreds bede uro luft hjælp lange virkelige bunden mama troet hvert øiet hjælper strålede deilige forvirrede vel ledet brud 
+38	0,1	vandet begyndte berolige føle kvindens vinde fornemmelse læber bitterhed ovenikjøbet glinsende egn evig herskab svævede spøgende hverv tilsyneladende brede faret 
+39	0,1	kommer hører bag tårer bedste bryde kvindelig syg skal mørke ønskede ren kommen havestuen fremtid lilles vert syede fattet halsen 
+40	0,1	noget stakkels neppe holdt dage moder gået god lidet slags skjønhed drog stilling håb endog rein eget taget besynderlig værelse 
+41	0,1	figur klang høieste forsvunden benyttet lidelser gjerne stykket oplyse stammede velstand behøver flaske flasker dreie velsignede suk forlade ungdommelig forestillinger 
+42	0,1	vor hvem blik thi tanke næste greb gården gammel stort hovedet lyd vinduet egne tusinde lykkelig dame lang kjendte forbi 
+43	0,1	øinene fare gik skinnet støvet tilhøre drøm vognen foregik græs sjeldne overbevisning agtelse gal betroede nysgjerrighed slem måde brogede buret 
+44	0,1	viste fine syge ægte længere opførsel søvn skatte måde gid malede bringer skikket søstre træerne blikket forstyrrende skjulte frie nydeligt 
+45	0,1	lyse post besynderligt deri krøsus stige norsk blomstrende hævede smule fører begivenheder tilhørte begavet frygter længe retning forskjel åndeløs forstyrret 
+46	0,1	var han dem jeg skal endnu alle man sit alt nogen stod sådan gik unge medens mellem virkelig derfor stille 
+47	0,1	sin efter sige vel tilbage ligesom ret før dem mine liv hvis gjør blive fik følelse ung sagt frem ansigt 
+48	0,1	uhyre interesse skræk taushed datter hygge hesten broget ladet glemte kaste hindrede uagtet udbredt lyttende møder samlede rolighed styrke åndelige 
+49	0,1	almindelige ivrig endte længesiden stod hest almindelig bøn råd velsignelse troede beroliget ungdommelige dertil osv tilstand gjælder ufrivillige fremfor hundrede 
+
+<250> LL/token: −8,43641
+<260> LL/token: −8,42125
+<270> LL/token: −8,41929
+<280> LL/token: −8,39988
+<290> LL/token: −8,4071
+
+0	0,1	ude hvilke råder dannet stødte vinduer fast busk klokken uvished poetisk tilstrækkelig lyttende usynlig ytringer trykkede dansen fint vid ventedes 
+1	0,1	opmærksomhed syntes overalt glas hvilke griber roligt følte skin ilet sover koldt turen lykkelig også strengt eie kloge selve fat 
+2	0,1	hør frygt kanske blikket fulgt omtrent ole suk fæstet ophold tænkt ydmygende duft fristelsen utålmodighed volde blomstrende første særegne dæmonisk 
+3	0,1	dobbelt lære egen taushed dunkle slægt øvrige sort spillede kjender eier dukke fandtes tidsnok capellanen tænk netop danner kvindelighed tabte 
+4	0,1	hun havde ham fra hvor skulde eller kom ord været mand hen ser amalie dag samme bedre kjere tror ramm 
+5	0,1	drog falde caspers tilmode post forsikrer evige blandt angreb fattet morgen viser jordiske tilbragt duftende berusende bleg dygtigt overgang spøg 
+6	0,1	selv dig måtte allerede bedste glæde sandt sådant idet kunnet lægge lidet stund talte igjennem stærkt tidlig livets høist hustru 
+7	0,1	grotten brudt formeget veninde beholde ældste blanding samlet udvei klinge tilfreds smukkeste elise strax sænkede skaffe historier bestod langt fiks 
+8	0,1	greb lige udvortes lignende lyttede talte sætte luises havens husene reddet sikkerhed slyngede adskillige situation tabe overvældede rulle istedet betroede 
+9	0,1	værelse stillet manden levet skred ifærd kraft elskværdig daglig sikkert berede skjønheden duer støtte sprog brændte erindringer medlidende stormende stråle 
+10	0,1	tvivl erindring musik trofast klage vanvid min greben tilfreds imøde øvet dennegang middag vover tjeneste søsterens affekteret veiret trænge optage 
+11	0,1	besøg høieste læse glæde natur taus begribe kaste passer imellem stigende elendige vertinde aparte stige landskabet forbauselse veninde smilende guld 
+12	0,1	villig dine stedet vandrede opførsel mængde båden kjole udvikle forstyrrede begivenheder førstningen fatning almindelig består betragter pinlige flygtede ligeledes dels 
+13	0,1	denne ved dette kunde vil være min når men igjen gamle intet sine hos gjorde komme sidste hvem øine fruen 
+14	0,1	det den jeg ikke der til som med har mig hende hvad kold mere kun også mod nok ned uden 
+15	0,1	falder bevægelser beskjeftiget igår gjenstand passede falmede synneve vinduerne skjul forundring angår træerne eier fortrolig bladene vigtighed tillod fordums sidder 
+16	0,1	efterat styrte veltalende skreg blikke forgjeves følelser begyndt lænestol forekommer tvertimod svare sengen utallige lig uartig fødselsdag anvende stuen foregik 
+17	0,1	luften voldte tilbringe urolig talen hang forklare forældrene praktiske skuffelse valgt behøves letsindig tilfældet skam beregnet synes selv iaften udover 
+18	0,1	desto mer jomfru vakte færdig venter bestemmelse brandts opdaget langsomt finde båret danmark optaget forgjæves beder savner beroligende omstændighederne julen 
+19	0,1	sagde end disse netop din hjem mange måde faldt værelse edvard altfor egen hjerte tænke søgte derpå skyld del sorg 
+20	0,1	lukkede hovedet hånd rolige lyse flere ladet dit elskværdighed pianoet skatte fader land lykken barnekammeret takket indtagende stående modsatte vild 
+21	0,1	time hemmelighedsfulde alvorlige beundring modtog sofaen havde syede beslutning vågnet forkyndt sag synge kjerlighedens vilje beseire gardinet indgangen behagelige herlighed 
+22	0,1	forbindelse mer spørge dyrebare hvorved frokost lyd forlovelse betingelser ansigter ringe margrethes forstyrrelse måtte beherskede hjerter frederik skrækkeligste ånden beredt 
+23	0,1	sofie hendes dog vilde man deres engang noget gud lidt eneste først lorenz altid lykke kunne alene par vort side 
+24	0,1	flere pligter hest sæteren momenter sider sky ydmygelse ømme kommer trængt høie færdigt sygestuen ukjendt væk drømmende læg kræver tyst 
+25	0,1	smukke strålende dag smag mama historie imidlertid voksne tidligere afsked fattede tåle broch skabninger fører instinktmæssig kolde udsætte papir omrids 
+26	0,1	bliver råbte hånd endog vide give drev sind forladt dagligstuen møllerup glemmer skjule trænger barns slag miner blå voldsomt mål 
+27	0,1	kan gang øieblik enhver andet tid fru kommen væsen får bevægelse turde plads satte samtale kolds derpå talt morgenen ude 
+28	0,1	andres besynderligt fortæller menneskelige videre istand skjælvende naturligt ovenikjøbet livlig rygtet græde personlighed vækker sprang uden ubemærket forskrække vel trådt 
+29	0,1	egentlig grønne temmelig aftenen vanskeligt ære fem åndelige gråd dømme øvede betragte fader lange andet bekymring indhente barmhjertighed sørge billede 
+30	0,1	ivrig tilbud skarpe tyve ønsker sande akkurat miner egentlige veie støvet forstyrrer fornøiet træ rødme erfaret legeme tæt udsatte nærme 
+31	0,1	ofte straks dertil tro blot lad elskede rigtig hænder børn nede alting vakt ydre nåede tilværelse siger bevægelse idag bemærkede 
+32	0,1	søgt gut vente bragte kvindelig rundt heftig brast herlige siddende knæ luft vågen glinsende bevares inderste fortvivlet rigtigt desværre siden 
+33	0,1	søster skikkelse neppe strakte mente piges sangen følgende voksen værste skjæbne bevidstheden henne møllen pleie tider giv led fruentimmer simpel 
+34	0,1	hvortil plage georg flor opgave sang bød foragt drømmer hjælpe mode hvori humør drive anfald umulige bah savnet års råbte 
+35	0,1	folk sandhed begynde bog tilligemed holdning føle bestræbte lave byen grotten brevet stærkt skygger forskjel stemning fortalt herop pibe banke 
+36	0,1	sig men hans ingen blev ind aldrig ganske hele meget nei første således brandt vidste gjort inden thi vilde ven 
+37	0,1	egne tanken husker kinder røde bringer bevægede føre seire sygdom vanskeligere iført opdagede undlod harme fuglene oprør stanse sal måder 
+38	0,1	blade naturligvis trøst flytte ligner desuden klart mødte fået undgik medlidenhed arter sprog sten svage mage døden ædru forstyrres lutter 
+39	0,1	kaldte gribe hviskede skikket opfatning modtage adas pludseligt attenårig mærkeligt tætte glemte udrette tildøde tjeneste nærmeste foragte dristig trukket vågnede 
+40	0,1	noget blot stakkels moder dage høre lagde neppe begge siger skjønhed stilling taget altså nød håb besynderlig stykke ung halv 
+41	0,1	alvor rakte yde blevet beklage portræt tålmodig søge vende glad fornøiede gardiner skjelne smeltende ømhed lindring overfaldt forskjellen tilflugt overbevisning 
+42	0,1	blik gården lykkelig vinduet små trang vor borte mening skjønt lyd ind undertiden intet tro læste kjendt fortvivlet endte værre 
+43	0,1	præg underlig begavet sand sødt følger ligesågodt bøger trøstede udtalt forspilde venlighed afløste hus øiensynlig broderet rædsel tænder rettede iforveien 
+44	0,1	oplevet hører tusinde tilfælde tale norsk erindrer ungdommen omhu dets enkelt nedlagde jordbund parti hvilende beskaffenhed shawl mærker tålte bugtede 
+45	0,1	mærke deilig ansigtet bange gåde krævede billede kolde tilhørte drømme snil terskelen draget betage anger lighed stået redde vidst øve 
+46	0,1	var han dem skal man alle endnu alt sit stod nogen anden gik pige sådan unge jeg hvis amalie mellem 
+47	0,1	sin efter mine sige blive vel tilbage ligesom ret før liv vor gjør fik følte følelse frem mor seet dens 
+48	0,1	grebet natten bliv ånd fare særdeles stråler stort første malede behagede rakte altsammen vold arm sorte bagatel slem redning skimte 
+49	0,1	følelse rystede ældre hænderne luft gid ulykkelig mærkede lægen blandede fornøielser seddel øde forsøgte paa forklaret rum dreie suk nedad 
+
+<300> LL/token: −8,40319
+<310> LL/token: −8,40647
+<320> LL/token: −8,3947
+<330> LL/token: −8,39549
+<340> LL/token: −8,40025
+
+0	0,1	voldte fortjente skjul glemme liden pleie mødt stand får døtrene samtalen noget undgik tilbragte søgt overalt banke alder tør skrin 
+1	0,1	fortalte smukke åndelige rundt forstand halsen tynde seire flåden bliv turen overordentlig amtmanden dæmonisk trøst eftermiddagen oplevede skam temmelig bød 
+2	0,1	smertelig fyldte sort rigtignok hjælp alvorlige efterat mama skygge kapellanen medlidende virkelighed yderst middag beseire glemte fattede stavelse klædte iveien 
+3	0,1	grå vred elskværdige bønner heldigvis passede nytter slået hensigt øde opfatning tabe tjene indtagende flygtede varm smerten udvikle vei skyggerne 
+4	0,1	hun havde ham fra hvor skulde eller ingen kom ord dag mand hen altid tror været samme müller bedre ramm 
+5	0,1	varme smuk virkelige fornøielse øinene piges fuld skjebne kjøbenhavn bør fuldkommen stillet piger mest stien streng tête møllen hemmelig onde 
+6	0,1	selv dig måtte allerede glæde bedste idet undertiden sådant hus små vide fremmede louise idetmindste bar venner livets opmærksomhed lykkelig 
+7	0,1	ensomme følge høre hel styrte bange pianoet græs tillige lyden foregået høitidelig barndom imod nævnte krævede forældrene består alvorligt bemærke 
+8	0,1	gården provst elskede møde drage danse traf dagligstuen røde mærker tjent betragte døden hænderne huske kapellan pause med ubeskrivelig stykket 
+9	0,1	sig usynlige hvorpå bryst betydning ånd bevidstheden har interesser daglig tidligt led usandhed stormende faren dukke mad ædru forstyrres kjerligt 
+10	0,1	tilstede smule strakte slå fjeldet ære personlighed lune vakker forstillelse slip hvorvidt bittert synke øiebliks mål vakte klædning hjerter frederik 
+11	0,1	hører herrer rige lægge benyttet bevogtede skjær bøn barnlige bærer blussende viste trække erfaring stråler rigtigt ulykken truffet hånlig beslutning 
+12	0,1	datter gjør forstår drømt livs urolig flugt vovede brændte elskværdig arm andens forklare alskens drage kors provsten åbent selve overfladisk 
+13	0,1	men denne ved dette kunde vil være min igjen intet gamle når hos øieblik gjorde været komme hvem sidste øine 
+14	0,1	det den ikke jeg der til som med har mig hende noget hvad kold mere også kun mod nok uden 
+15	0,1	margrethe hvoraf glemmer punkt musik lykkes offer lærte brav opdagede lette glemt omgivelserne forsøg forlovelse sider navne fred bolette bygget 
+16	0,1	engang mødte øvrige sofaen liv stockholm livlig slags goder forfærdet ubevidst kirke umulighed slumrende lænet bøiet umage lidenskab skille spillet 
+17	0,1	müllers samle sandelig fare plage skrækkelige vanvid mængde veg stemning indflydelse rørt forstyrre portræter berørte stærke indtrykket forvirrede såmange vist 
+18	0,1	herre ramme gjentog røre mands deri bestandig føle skete fristelsen bitterhed brystet agtelse hadede aparte samlet opdage tidligere dum kalde 
+19	0,1	sagde end netop din hjem fru mange måde faldt egen neppe fordi værelse edvard vis unge råbte blive tænke slags 
+20	0,1	rørte vinduer løse kaldte grunde omtalte formelig maria kjerlighedens sødt halt skin fint fuldt søde foragt åndedræt erstatte styrke plet 
+21	0,1	nat hang færdig amalie værre virkning reiser tørre deilige punkt skjønne besøge blinkede skuffet forklare marken uskyldige berede døtres stund 
+22	0,1	lyset brudt trøst time fornuftig opad ophøiede hast anlæg skulle love længe simpel forbedring mismod eiendommeligt tegnede beklagelser sunget ubevægelig 
+23	0,1	sofie hendes vilde dog deres engang gud man eneste lidt sjel lorenz lykke kunne søgte alene vort sig gode hvilken 
+24	0,1	hvert dig modig farlig sammen bispekammeret lig dødens skjebnen lege møblerne intetsigende skjærende hjelp ansigter ombyttet leende overstået frygter skuet 
+25	0,1	søvn sidder smerte broget blandede ømhed bekjendte louise vending familierne eiede raseri rykkede levende vækker overlod veie hvad synlige læberne 
+26	0,1	hånd mer søstre men caspers hverandre mening virke særdeles blanke lyse stolt oprigtig oprør egn nedad græd post betroede forvirring 
+27	0,1	kan gang andet enhver tid kommen bevægelse forbi kunnet forekom vedblev sind kolds plads alligevel rent igår hine holder enkelte 
+28	0,1	finder giver fulde hest bitter forekommer heri tilmode elsker forståeligt sammenhæng forstyrret talent tause redning smilende trøstede taget lig stilhed 
+29	0,1	begribe tilføiede fryd hemmelighedsfulde søn brud taushed skat bord almindelige ældre karakter usædvanlig hænde forkyndt største naturer tomt heftig råbte 
+30	0,1	træffe naturlige blå sagde kunnet tøiet borde forstyrrer korte sikker osv tanker festen skriveri beboerne lina skjælvende desuagtet anliggender vælge 
+31	0,1	ofte dertil lad nede vær alle aftenen elskede forandret finde glas forsikrede viser klart hundrede sten lukkede hårde yderste altsammen 
+32	0,1	skjulte dennes gribe ligner skarpt sætte spise kvindelig kyssede tilligemed stødt fremad vandrede fornøielser forsagelse vove forstået vendt læseren alleen 
+33	0,1	smukke søge endte sætter savn malede såret hurtig sikker herefter end sendt mildhed billedet brede husene udsigten vise kirken halve 
+34	0,1	styrke fortvivlet huslige ilede bevidsthed hente mangt henne følt beklage sænkede ungdom beskjeftiget hjælpe armene efterladt troen vinde morede volden 
+35	0,1	miner trænger lidet tone slægt befandt høit gjester sangen ligget forestillinger hvergang uvilkårlig mændene truffet kalde ubemærket taus sfære duer 
+36	0,1	sig hans ind blev ganske aldrig hele meget nei men første således vor brandt gjort tale inden synes rigtig thi 
+37	0,1	føler hus uendelig menneskene opdaget strid eier barns træt trådte valg kjole hjertet flyve desværre smilende vilje stivt blikket vred 
+38	0,1	hun træk tilfreds falder madame tabt lød deiligt ansigtet bestræbelser spørgsmål væsens vågen spring voldsomt oprømt fare fatte forbi leiligheder 
+39	0,1	stum krog tid hjælper skjønt elev begavede uret strax forleden herrerne frisk ungdom vilde blanding veltalende stræben selskabelighed baller røbede 
+40	0,1	blot stakkels moder lagde begge søster altså lidet stilling stykke høre skjønhed nød eget alvorlig tusinde ladet siger grebet dorthe 
+41	0,1	kulde lagt time værelser hemmelighed samtalen sammen drømte ydre erfaringer forstenet glemt sende netop dansede dannet blad møie skabninger nærværelse 
+42	0,1	hoved mest talt drømme rystede fødder møllerup udbrud slag ældste ovenpå farlige talen bragt spørge bevægede forandring passe naturligvis bevægelse 
+43	0,1	fortalt kampe brevet mødte mærket stærk trukket udholdenhed tilfældigt fat blomsterne blå paa barndoms mening bal begeistring båret døde gjennemtrængende 
+44	0,1	krøsus mildt findes dølge reisen høist akkurat arter oplyse derefter valgt heste frokost mærkede kjole vanskeligt faders eders elegance grundede 
+45	0,1	deraf tanken bøiede sand villig bog trofast falde idag uge lige både misforståelse ophold fjerne angik medlidenhed sikkerhed herlighed fordringer 
+46	0,1	var han dem man skal jeg alle disse endnu alt sit amalie stod nogen anden gik sådan når pige mellem 
+47	0,1	sin efter mine vel tilbage ret ligesom før sige liv blik blive bliver fik ung følelse seet straks frem gjør 
+48	0,1	forrige sød griber steg elendighed reist fordi vinde vandet love brug forsvandt stigende barnet nærmelse takke ironi skamfuld tilhørte ydre 
+49	0,1	sammen vundet tages hvis juni beholde blikke markerne forresten fjern følte ungdommen ilet livlighed standsede dagens fletninger evner indrette omgivelse 
+
+<350> LL/token: −8,39421
+<360> LL/token: −8,40463
+<370> LL/token: −8,40415
+<380> LL/token: −8,39858
+<390> LL/token: −8,39764
+
+0	0,1	mindste imøde skjebne hente holder milde karoline komme imorgen forskudt spidsen kvindelighed bugtede afløste venner reins indgjød smeltende uforklarlige papir 
+1	0,1	svarede lykkes vei jeg værre menneskene åbnede løfte uvillie deltagelse bekjendt fået passeret flyve tålmodighed fornøiet afsky mange svaret tjent 
+2	0,1	forstår rakte hvoraf ilde derfor ungdom deiligt vildt søgte ømme betroede beregnet såvidt der bryder drikke lykkeligere støi fraser tilfældigvis 
+3	0,1	danse bryst brød penge igår stilhed dunkle løfte elskværdig snil sjels post medlidenhed koldt mildhed erfaringer overfladisk stødt forskjel medlidende 
+4	0,1	hun havde ham hvor fra skulde eller ingen kom müller ord altid ser hen først tror samme bedre mand begyndte 
+5	0,1	breien ligge varme tidlig udtalte reisende vedblev bleg udmærket vise graner beroliget skuffelse gid tåle huske veg gråd voksne begivenheder 
+6	0,1	selv måtte allerede glæde sandt gav ofte synes idet måde undertiden blot begge elskede lykkelig nede vide åbne søstre hår 
+7	0,1	moderen fortalte bevægelser hjælp stærk ville unge længsel duft bah tålmodig håret ordentlig griber hygge guld beseire lykkeligvis ophøiede beskjæftiget 
+8	0,1	lorenz sofie sådan trak spørge sten bragt virkning uge nærmere forældrene blikket gjester forsagelse sande modbydelighed forlovelse manden glæder vort 
+9	0,1	holdt visse begribe blikke evige munden herrerne hvid begynder langt hensyn dagens omhu bliver døden forud fatte fordums arter vækker 
+10	0,1	dunkel derover forlovet gribe erindring afsted følt uskyldige reddet mest liv heftige lidenskab betage nærværelse førstningen forstummede oplyse midten busk 
+11	0,1	alting sidder tilbringe medens savn lærer stige pludseligt behøvede høilig ønskede hører træde igår mos dansk behagelig sirlige tusmørke begge 
+12	0,1	menneske følge lidende præg norsk ifærd uhyre væsens iveien nærme sorgen brændte samlede ledsaget smerte hjertelig veie dennegang omsvøb farligt 
+13	0,1	men denne ved dette kunde vil være min deres igjen gamle hos netop intet øieblik sidste hvem bedste øine når 
+14	0,1	det den jeg ikke der til som med har mig hende noget hvad kold mere dig også kun mod nok 
+15	0,1	igjennem billede høit besynderligt margrethe efterat lade skuffe sat strid døde naturligvis opgave største ubevidst rygtet stråler frygtede side seddel 
+16	0,1	dybe helt levet besøge gift deilig lampen hvilede opad længes tændt foran fuldt mangt talen beherske dette forbedring tilstrækkelig udsigt 
+17	0,1	midt hund skrevet imøde venner langs røbede lig møllen forandret forsvunden lyden blotte såre tabt overordentlig lægen sover benyttet omrids 
+18	0,1	stenen mest tal veiret luften tages altsammen trådt rørt tilhører vågnet usigelig mildere byen træffe hunden duggen besiddelse klædte lytter 
+19	0,1	sagde end hjem fru faldt mange værelse fik fordi endelig neppe vis råbte tænke udtryk grunden spurgte afbrød ude tanker 
+20	0,1	lad herre ind små stedet sag overrasket udvortes hid tidlig egentlig vanskeligt foragt hensigt slå adas forlanger mors veltalende rygte 
+21	0,1	fjern ulykken træt arm trykkede klang fulgt erindre ungdommelig muntert skamfuld kaldes gratie magt lyttende barnet ømhed elendige heftigere bruge 
+22	0,1	slog synet dobbelt brudt kjende forstand derfra faders øieblikke klar neppe frugt daglig springe bekjendtskab uventet ligner mer glimrende møie 
+23	0,1	sofie hendes vilde dog engang gud lidt sjel kunne brandt søgte intet alene viste hende dit hvilken får bag døren 
+24	0,1	love skade fuldkommen igjen lidt dansede brændende livlige hin hændte udseende hemmelig lukker poetisk indtrængende fattige helst skygge antaget post 
+25	0,1	står barns nåede opdagede tilbud vistnok styrte strømme fred spillede bestemte gode resignation seire flåden bevæge sikkert hjælpe arbeidet tilbragt 
+26	0,1	sådanne dybeste sat dammen sind trist forandring agtelse lever dæmpet adspredt ophold hadede hest standsede mildt fylde tomme skarp særegne 
+27	0,1	kan tid andet enhver gang egen hus forbi bevægelse kunnet fremmede stilling kommen drøm føler samtale time overalt besøg selv 
+28	0,1	bemærkede vedblev høi græd stærkt kold ønsker müllers forsvare blomstrende capellanen erindrer berolige drømmer agte flygtede fremad beskaffenhed formår sti 
+29	0,1	tilsidst mer skuffet kaste byde bevogtede kraft indeholdt bitre vide tungt nedad grænseløs yde figur trin ment gjælder rulle værge 
+30	0,1	glad offer stue hvorfra heldigvis hjemkomst hurtige krog anstrengelse dengang nævne øvet ubehagelige herlig prosa berusende ansigtet meddele værdt sagte 
+31	0,1	bevægelse virkeligheden formodentlig onde vinduer vise venlig gang bleg skjult græs ide antog letsindig forekom stemning sligt enkelte blade såre 
+32	0,1	strålende især vindu viser herligt bitter glemt halsen ængstelse syede vove brandt selskabet formeget læge bygget megen åndede naturligt lægger 
+33	0,1	fire klæder lidet bånd ældre ydre opførsel møllerup herrer indtrykket sluttede tvivle bøger beskjeftigede undlod kloge anger såret stræben uagtet 
+34	0,1	familien yngre skoven virkelige kommen sneg bryde trænge endte stak egn desværre marken bemærke aparte enden lette momenter kjøbenhavn betragtede 
+35	0,1	tag spørgsmål ilede forklare bog trænger forenet grunde kjende anede værelser derinde nærmede tillige beklage rige åbnede vundet smertelig lykkelige 
+36	0,1	sig hans blev ind ganske hele meget aldrig første vor dag således gjort men havt inden rigtig luise slige nei 
+37	0,1	stockholm ligeoverfor hænderne dannet tvertimod retning land blandede berolige brøchers forfærdet indfald led bør forreste trængte faren ladet kjerlighedens hvidt 
+38	0,1	bange færdig luft angreb forsikrer sammenhæng vinduerne vigtighed begavede uafladelig høitidelige vigtig barndoms samfund taug savner afstand ansigtstræk klæde mærkeligt 
+39	0,1	hustru stødte åen lidelser denne trukket derhen røst dygtig støvet haven halvt datter teppe foræret mødrene drager følgerne kirke slag 
+40	0,1	blot lagde skjønhed gården altså stund lidet kristiania mindst tusinde høist fortælle dybere tårer desto hører styrke søger syge skarpe 
+41	0,1	vil moders forsøg skuffelser imidlertid usædvanlig slutning uvilkårlig fornøielser menneskelig åndeløs intetsigende trykket kjøn ulykkelige tage kaldt omgivelse beskjeftiget udtale 
+42	0,1	skrev troet glemme forretninger flytte brast seng blomst altså henimod tilbragte stærke nærheden efterhånden sagde uro tilende søsterens ængstelig længer 
+43	0,1	skikkelse smag skjær forsøge rene behøves mænd orden fattet skatte talent klage bunden aftenen jord frivilligt byen indtil vant studenten 
+44	0,1	endelig således deri rigtignok ældste findes pleie tjeneste samt ramm steg kammer jordbund taus svævende rose enten billedet grusomme nødt 
+45	0,1	aldrig idelig ånd fare holdning knæ fristelsen håbet usandhed kvindelige omtalte leende lagt halve småpiger landskabet mørke hat personer virkninger 
+46	0,1	var han dem man skal alle disse endnu alt når sit amalie stod anden pige gik nogen sådan hvis jeg 
+47	0,1	sin efter vel tilbage blive ret stakkels liv komme før mine lykke ligesom gjør ung bliver straks smuk provsten sige 
+48	0,1	lyse stærkt tvivl kommet brød udstødte hint otte desuden tillade begge søde bærer betragte grønne bød vilje grebet falde forelsket 
+49	0,1	rent mest sank underlig ringe bevægede følgende lærte nyde greben hævede samlet tvivlende forresten vågner tilgive anskuelser reddes skjebne synger 
+
+<400> LL/token: −8,39868
+<410> LL/token: −8,38501
+<420> LL/token: −8,37345
+<430> LL/token: −8,38198
+<440> LL/token: −8,38366
+
+0	0,1	opmærksomhed historie synet skjul bør udtalte glemte byrde forlovet sangen mekanisk foran høi situation huske alvorlige strakte til sørge umulige 
+1	0,1	hårdt mening tusinde land mon glæder herlige hjemkomst udmærket fyldte talt sind karoline livlig skarpt bævende lade sort søde venskab 
+2	0,1	iver formodentlig hals skeet gid sandt grønne del opsigt taushed giftes færdigt føie spørger fylde mumlede vilje doktor udråb glødende 
+3	0,1	hvori fulde gifte stående dens elskværdighed forfærdet strålede deltagelse foregået lukke ligger dorthe minut skjælvende agte uvilkårlige indtaget capellanen formeget 
+4	0,1	hun havde ham hvor fra skulde eller ingen kom ord müller mand altid hen først tror komme stille samme mine 
+5	0,1	trøst grad blevne ungdom skjule lægge bare kampe pianoet rene vedblev ordentlig erindring passer tolv hører bord iveien bleg søger 
+6	0,1	selv allerede måtte glæde vilde ofte gav reiste begge slags elskede veien lad nede fulgte sålænge mødte hår løse unge 
+7	0,1	pris kjole hemmelighedsfulde læste rædsel midler georg heldigvis forekommer bøiede liden frygtede ulykkelige udseende træde frelse tilfældet standsede søge vanskeligere 
+8	0,1	voldte dit heste herrer trængte bevægede deilig brast egentlig træffe heri vrede tålmodighed egnen optaget sidder rig gjester omsorg mage 
+9	0,1	byde øvrige tomme indfald blomster dæmpet langs lægen frivilligt beskjeftigede orden tæt lemmer istedenfor uhyre stund mindes distrait udføre kammer 
+10	0,1	synes går strålende troet bemærkede kvinde skjøn rum nylig sligt travlhed nærværelse taug oplevet alle resignation portræter såes forbauselse begivenheder 
+11	0,1	stuen videre rystede mindst nærme müller ridder pleie skrækkelige beholde tilhørte margrethes stødt simple byens individualitet vakte vild ler alskens 
+12	0,1	tête ulykkelig derefter ydmygelse tøiet ret flåden vemod værk afløste fjern virkning hint svigtede overflødigt meldte underlige anskuelser udført udvikler 
+13	0,1	men denne ved dette kunde vil være igjen deres intet gamle min netop hos øieblik sig bedste hvem fik sidste 
+14	0,1	det den jeg ikke der til som med har mig hende noget hvad kold mere dig også kun mod nok 
+15	0,1	tilfreds venlig misforståelse bestemmelse høitidelig bringer fremad iagttog hund ovenikjøbet vid lovet navne egentlig frygter indtrængende hanne grav væg gnist 
+16	0,1	tabte høre hemmelighed rige overraskelse lidelser scene mangengang gifte blinkede sætte skuffelser forstyrrer brevet beregnet afsky lysten kaldt bønder uvished 
+17	0,1	greb tilstand mildt igjennem talen især lærer mærkværdigt fruentimmer barndom strid træt kreds foragt pande legeme beskjæftiget redning altsammen venlige 
+18	0,1	råbte deiligt himmel fornøielse pent efterat længsel omrids aparte sorte følgende adolf sendt elendige nytter hest lever scene forstyrrende blive 
+19	0,1	sagde end hjem fru mange faldt neppe værelse fordi provsten vis lagde udtryk grunden sang råbte ude feil mest hænder 
+20	0,1	blive stolthed lys føre bevægelser vanskeligt berørte bal værste herrerne enkelte sneg søger fuglen tilhører nærmeste kjøn mer vold skyede 
+21	0,1	vedblev sød trak dannelse straffe udfoldet meddele dom tilbøielighed trygt forstå fleste forlangende udtrykte trusel tilfredsstille diplomatien samledes stridende forrette 
+22	0,1	holder vognen streng ensomme søgt nytte tilbringe fri alt øvede forsømt mildhed græde nysgjerrighed øine lænestol tie spring øieblikke brandts 
+23	0,1	sofie hendes dog vilde blot engang gud lidt brandt sjel lykke fruen søgte kunne alene holde viste vort hvilken mor 
+24	0,1	sand rev tvivl vække brede overmåde lyttede norsk agtelse sænkede venter længer smukkere kirke derfra mild års trængte heldig ømme 
+25	0,1	gjentog lukket ulykken svage ledet goder teppe onde linier iført frøken samlet plet betragte styrte indbildte fortræd ordknap øiet bragte 
+26	0,1	sandhed landet glemmer sofaen vant forstået overrasket fornemmelse svaret nærmelse kvindens sådanne ironi modsatte betegner mode tanker guld geniale mandens 
+27	0,1	kan tid gang andet enhver bevægelse hus havt kunnet hoved tager ondt fremmede samtale hovedet skikkelse ligeoverfor overalt rakte form 
+28	0,1	frue aldeles tabt bort blege børnene færdig caspers hemmelig blad træerne ånder væsens skat afsked indgangen forskrække dukke greben løfte 
+29	0,1	søstre høist dammen friske vågnede mild reist post inderlig alleen stivt bliv fornøiet kjerlighed røbe trist begyndte vished porten spøgende 
+30	0,1	dens lyst forundring ilde smuk gård værre tillid berolige naturligt ære almisse beundring opdage håber herskab mors ubevidst overende veiret 
+31	0,1	bedst pause gut ansigtet lægger fristelsen ønsker gjælder tidligt indtagende ungdommen eftermiddag forbedring gjælde stand frygtelig turde sødskende anlæg præsten 
+32	0,1	ægte følge krog betragtning norske sande fem person sommer velsignelse valgt skuffet sider forekommenhed raseri glade fraværende redde alleen svigte 
+33	0,1	blå menneskene lidende bede lokkende vending opførsel uvilkårlig forandring fortvivlede udviklede hast feighed støvet egentlige død velsigne kjerlighedens drive skjønneste 
+34	0,1	mit halvt thi morgenen forklare vred fire mørke levet jord hvid egn opfyldt virkelighed stolt modtage vertinde uret elske grund 
+35	0,1	dybere lys madame skjær figur nærhed tanken bolette sprog kirken grebet dannet venlighed begynde vore skabt vågen klart underligt omhu 
+36	0,1	sig hans ind blev ganske aldrig hele første dag således vor bliver egen luise inden slige gjort rigtig ting tanke 
+37	0,1	trænger lade bange andres forbindelse bestemt hurtige fraser åndede afbrudt erfaringer anders antaget sofien råheden lide forskruede omstændigheder skikket gjæst 
+38	0,1	skrive såre fire tålte rede verdens svag skreg skjønheden mørkt pakke udsatte forstod kræfter samliv idetsamme vundet træt marie steg 
+39	0,1	skjønne besynderligt veltalende døtrene gjerne borte forbindelse krænket beundre skin hemmelighed hvorfor desuagtet erfaret streifede skuffet veie ærinde hørtes boede 
+40	0,1	skjønhed dernede sind mer ydre fruens styrke fuld glemt dets gulvet kaste lyden uendelig heftig klokken forskjellige nat lovede bemærke 
+41	0,1	omtrent frygt søn mærket stormende landskab tilbragt fløi tilgive bakken forstyrres barnlige lutter grænseløs sædvanlige ethvert bugt søen bryder tabe 
+42	0,1	hvilede igår åndelige tilbud hine kvindelige bunden særegne korte rørende flyve grebet forenet gråd dennegang forlanger tungt bleg spørg ængstelse 
+43	0,1	forandret billede breien såmeget derinde syg griber hint værelser blandt træder leende karakter næsten skjæbne dyrebare andens havens stykker paa 
+44	0,1	moderen stødte farlig føle valg flugt leilighed strakte antog bitterhed skete bemærket skuet mødrene såsandt ubønhørlige bittert sandere tider pinlige 
+45	0,1	øine ung dig bringe spil nået faderen beslutning hurtigt drage nyde fødder negte istand fred svagt speil fandtes anledning lyttende 
+46	0,1	var han dem man skal når alle disse endnu alt sit amalie stod nogen min anden gik pige sådan hvis 
+47	0,1	sin efter vel ligesom blive før stakkels ret tilbage liv gjør måde ramm mine sandt god kjender altfor trådte hjerte 
+48	0,1	nærmede trin mindste piges talt ramme græd savn dorthes hidtil sagen holdning igjennem afslag uheldige medlidende idetmindste begavet maria hænde 
+49	0,1	rette lyse derhen daglige tusinde sover angreb herligt dunkelt spise forstyrrede behandlet koldt opdragelse fremfor selv halve hvidt søndag længes 
+
+<450> LL/token: −8,37743
+<460> LL/token: −8,39113
+<470> LL/token: −8,38738
+<480> LL/token: −8,37911
+<490> LL/token: −8,37956
+
+0	0,1	tage dunkel stærkt lyse stakkels glas såmeget datter bolette tilhøre indeholdt senere sandsynligvis hvormange døtrene jagt læst tvivlende giftes heste 
+1	0,1	strålende natten strakte tilbud mig tør bønner kone blikke hvid byen vanvid følger flyve løse müllers herop ynde grav uvilkårlige 
+2	0,1	enkelte slægt forbindelse glemmer efterat hånd skulle behandlet støvet drevet nærværelse nedad familierne forbindelser stak vished isnende afspeilede travlhed galt 
+3	0,1	seng udtalte erindring lykkedes stemme fået fortrolig beskjeftiget brud dølge foragt hjælper brede farlige straf øine rødme lovede nydelige ringeagt 
+4	0,1	hun havde ham fra hvor skulde eller ingen kom mine ord mand lidt hen altid komme tror først müller stille 
+5	0,1	blevet sådant hvert bag forstået eier egentlige post thi leilighed væsens negte seddel sørge springe elev heftige indtrængende vertinde udvei 
+6	0,1	selv allerede glæde gav neppe rigtig begge par slags hin veien lægge lad undertiden sålænge forstår udtryk kristiania rette uhyre 
+7	0,1	forstand fast værelser vred uendelig skjul lød pent længesiden skikket skikkelse omhyggelig reisende jord streng mangler tabte vovede marken synet 
+8	0,1	farve tomme ældste forstenet hviskede velsignede dorthes foregået uheldige skiltes uheld høit grusomme streifede erindringer mor opfylde skriveri hvælvede solid 
+9	0,1	forandret endte vist virke skuffelse ligget synet takke bærer slår fører tre besluttede ren svare følt åndede møder begavede studenten 
+10	0,1	sommeren samlet mangler hund broget nødvendighed læber forsikre almisse udsatte gal juni shawl fint hesten forekommende uvished slyngede mønster berøve 
+11	0,1	virkelige passer hidtil egentlig spørgsmål underlige behøves behøver barndoms ting bøger blotte gang afbrydelse ifærd dygtigt aftener fromme forestille magter 
+12	0,1	farvel selskabet skrig luft trænger villie ånd rystede opfyldt kvindelige lyttede høi forretninger midler begavet usynlig armen seks tankefuld stanse 
+13	0,1	men denne ved dette kunde vil være igjen deres intet gamle netop hos sofie øieblik sidste hvem bedste måde fik 
+14	0,1	det den jeg ikke der til som med har mig hende noget hvad kold mere dig disse også kun nok 
+15	0,1	angst dybeste afsted time reisen præg stillet klage tegn bleg blomst deilige amtmandinden dømme tider skjult stråler tynd indtryk røbe 
+16	0,1	dannede ansigtet mama forsøge fortalt skin brug virker bitterhed vildt kapellanen års imod rødt fattet forekommer anfald berørte scenen betroede 
+17	0,1	altsammen sten daglige bryllup forundret iveien hurtig egn ironi alvorligere beskeden vandet beholde fødselsdag letsindig ordentligt drømte gjentog venner hvori 
+18	0,1	stykke kanske livs usynlige læste løse nytte kalde ansigt dalen smuk herlige hvorpå benyttet kyssede seng graner sande forladt mildt 
+19	0,1	sagde end hjem faldt værelse fru provsten mange råbte lagde stemme feil bag hånden mest grunden vinduet nede lagt hænder 
+20	0,1	skjebne sendte mindst bog følgende forskrækket stolt samtale fattige istedet smukkere blussende tænke venlighed lysten betragtede bor løs råheden følelsen 
+21	0,1	plads desto aldrig stammede toner itu blanding syede anskuelser led støi tilbringe megen spurgte fornøiede broen mødrene nydeligt ædru græsset 
+22	0,1	dammen desuden sangen begynde kirken båden tilfreds harmoni øvede talent stuen porten optog rolige morgen efterhånden familie undertiden karoline skrin 
+23	0,1	sofie hendes vilde dog sin blot gud engang brandt sjel søgte siger sådan går alene slige frem viste kommen synes 
+24	0,1	dagen blade datter stole klæder sandhed besynderligt bevægede dybt langsomt veltalende byde passede uventet kjøbenhavn ordentlig bød vert opgave fald 
+25	0,1	ydre brune ende gjenstand kalder osv dyrebare himlen skjæbne skjær kvindelighed lukke såmeget drømte alvorligt hængte fuldkommen gråd foredrag dum 
+26	0,1	ske søstrene møllerup stand bord bliv latterlige brast begivenheder altså ingen svagt istand usandhed erindre tvivl opad spurgt tårer jordbund 
+27	0,1	kan tid enhver gang hus thi ting havt tager lige ved hoved hovedet interesse nemlig vendte sagte yngre nyt hun 
+28	0,1	hemmelighed dybe står stærk skuffe opsigt beklage udvikle tvertimod tilligemed havens ubevidst efterlod fleste tids elendige høirøstede skygger forvinde kjørte 
+29	0,1	opdagede glemte elske forvirret sjels modtage spillet eiede seire tøiet ubegribeligt frivilligt sider inderste leiligheden tilende vågnet ædel forsømte sikkert 
+30	0,1	lære pris offer grå særegne høitidelig sofies greb herefter heftighed angreb ønskede sorte udmærket båret lærte modtog begyndt tilbragt edvard 
+31	0,1	kjole friske fulgt glemt stivt spurgte lovet lokker vilje resignation derefter overraskede forstyrrer vanskelig udsigten skam taber indtaget skylder forkyndte 
+32	0,1	dybt pigen fru vække bryde kammer stien modbydelighed havestuen uskyldige fornuftig stræbte medlidenhed rødmende frokost kjerlige lyst idelig bestod træ 
+33	0,1	greb vei værd troet angår taushed indgangen tête begreb undgik falden kraft strålede fødder vedholdende turen søger flugt træffe almindelig 
+34	0,1	nogensinde billede naturlig amalies mer huslige hvorved virkelighed uge kunne huske sjelen barndom naturlige omrids samtaler rigtigt syg deraf venlig 
+35	0,1	fine grebet indenfor byrde rose steg ånder frelse ole rede karakter røbede forstyrrende finde tog hvilede vakker hunden sender erfaringer 
+36	0,1	sig hans ind blev ganske hele aldrig første dag således vor bliver egen luise fordi inden foran altfor forbi tanke 
+37	0,1	danse spørgsmål henseende bør lært lide beslutning nærmeste læste skjelne troen falmede røde tåle vemod armene sov hid farlige syge 
+38	0,1	sand hør brudt forsøgte vognen rundt skridt ilede svaghed forsøg pianoet forandring sødt hadede passende flor tomt landskabet yderst forinden 
+39	0,1	tone dermed vundet stilhed fremfor længes bevogtede spillede hemmelig mildhed lettere døde særdeles såre sikkerhed mærkeligt opnå værge benyttes tvinge 
+40	0,1	finde mange dernede trang dennes truffet bange mariane skjælvende klæder omtrent punkter vove indtrykket fulde lyse almindelig læseren skydsen fortjent 
+41	0,1	moders ide finder dorthe akkurat luises sammenhæng trist voksne brav umærkelig behagelige brandts sommernat savnet ligegyldig straffe forunderlig stærk leiligheder 
+42	0,1	øre tilværelse søvn opdaget øinene underlig fortæller dans ligesålidt forladt pande høiere fjeldet græde foregik frygtelig sneg beundrede utålmodighed belysning 
+43	0,1	timer står udbrud penge mild grønne verden klang åbne videre tørt skjønheden træde hente reist taler forrige kjendte standsede betydning 
+44	0,1	fader fortalte skarpe frygt tante fremtid forlovet fraværende vandet ryggen otte forstår skred forskudt vækket voldsomt vred lave grad fred 
+45	0,1	ilde ude elsket overraskelse vanskeligt lagde svag jomfru fjern orden forresten drager desto smule skjønne mad henne nødt opdragelsen bestemte 
+46	0,1	var han dem man skal når min alle endnu alt sit amalie stod nogen anden gik pige måtte ham andet 
+47	0,1	efter sin blive vel tilbage ret før liv stakkels gjør ofte ung sandt kunne bevægelse müller kjender ligger trådte landet 
+48	0,1	kjende hverken råd mund stuen menneskelige søde mekanisk afslag bruge forklaring drømmer morgen spørger passe åndedræt roser ophøiede lyste imøde 
+49	0,1	hvorpå stødt vistnok rørende længsel drevet derinde banke hvad maria fjerne anvende post stået redde studium forekommet opfordring enige bånd 
+
+<500> LL/token: −8,37504
+<510> LL/token: −8,37515
+<520> LL/token: −8,37499
+<530> LL/token: −8,39214
+<540> LL/token: −8,3902
+
+0	0,1	hører nede hår søn fulgt angreb falmede stum sandhed erindrer tvivlende sammenhæng harmoni uforstyrret dorthe tankerne derefter anders morgenen nyttigt 
+1	0,1	dybere blå glemmer navn tjeneste ordentlig blandede underlige halsen optaget hine bane øieblikke beskjæftiget græd angik kjøn ler forbauset spring 
+2	0,1	skjebne vakt bedst gjaldt tomme føre forlovet inde frygtede dunkle gardiner blad nyt skin fem s'gu begynde broen udsætte morede 
+3	0,1	selskabet overalt håbet udtalte herrerne hinanden tilhørte kjerlighedens hid skuffelser gåde daglige besøg rose andens opsøge erstatte flor dalen danner 
+4	0,1	hun havde ham fra hvor sagde skulde eller ingen kom kan mine ord mand müller altid lidt først tror hen 
+5	0,1	stak høit glemme oprør forfærdet disse trøst slået strålede gang bolig spillet pedant hvid stående byens skam misforstår lyttende blod 
+6	0,1	selv allerede glæde neppe par rigtig undertiden begge troede lad dybt hin hende sålænge bad veien lægge greb kristiania rette 
+7	0,1	skjønne naturligvis dorthes rædsel sende slår vemod døtrene godhed standsede bekjendte springe besvaret mærkeligt udover nedad knæ behageligt heroppe enke 
+8	0,1	menneskene mama bevægelse trods onde arm kjøbenhavn såret ønskede villie heroppe vert overbevisning synke tålte falde forretninger mange slyngede friske 
+9	0,1	aftenen hårdt anede bør kalde skarpt vedblev omgivelserne friske ligesålidt fri person berolige fattige portræt enden høire fint gift vakker 
+10	0,1	sand desuden bønner forgjæves suk undgik tête velsignede øvede elskværdige skoven dens begge markerne behandlet eier dukke ifærd gribe banke 
+11	0,1	rolige bestemmelse lad aparte nysgjerrighed godnat tabe elendige dunkelt bereder tilegne lægge marie leiligheden eftermiddag skrækkelige faret skylder udmattet forkyndte 
+12	0,1	grebet værste kampe ømhed sider trænger længer fjern lyttede efterat tilhører heftighed hvorved streifede herlighed byen hvilket uventet sfære svaghed 
+13	0,1	men denne ved dette kunde vil deres intet igjen gamle netop hos være øieblik sidste hvem bedste vist øine måde 
+14	0,1	det den jeg ikke der til som med har mig hende noget hvad kold dig mere disse også kun mod 
+15	0,1	smukt yderste begreb forstået vanskelig fortjente milde usynlige villig tolv almisse vinduerne spillede stærkt tilfældet personlig haven læge eks tilbud 
+16	0,1	hvide stærkt begribe vente hvilede troet vågnede grå sprang hænderne uret tjent krog bevægede midler venlig mødrene besynderligt kapellan reddet 
+17	0,1	karakter hundrede begynder opvokset fraser tomt skriveri udtalt frygtsom forlanger lettet det eksempel uger ligeover beklemt plumper nærgående forsømte tilladt 
+18	0,1	plage tilside skade krøsus besøge karoline malede mekanisk rød veiret landskabet skyede gjenstande bekræftede gule heldig fortabt kaldte trænger væggene 
+19	0,1	end kan hjem fru mange faldt værelse børn straks lagde sagde bag provsten kunnet grunden råbte bordet forstår feil mest 
+20	0,1	margrethe ægte videre almindelig igår sommeren nærhed bliv dannet hidtil forsikrer bøn eder glimrende forbindelse blomster virkelighed lov vending tider 
+21	0,1	dennes egenskaber gid blanke når hør enhver skeet hurtigt sjels flyve klang øde vinden stikke oplyste malet lade stråle muligheder 
+22	0,1	forundring tur tiden ganske længsel langs længe væsens forbindelse anskuelser surrende istedet satte tålmodighed samtaler tilstår måneder ane afskyelige nationale 
+23	0,1	sofie hendes vilde dog sin blot sådan gud brandt sjel siger søgte går gang alene frem slige side hvormed viste 
+24	0,1	smerte bragte rystede erindring ilede deiligt alligevel dømme bitter skrevet offer misforståelse bevares rene visse stockholm blanding sådanne hensigt enhver 
+25	0,1	mærkede umuligt nyde foregået røre usynlig virkelige sådanne fornøiet beroliget reiser berusende drømmer græs skabninger tænk imorgen forvirret gjælder anfald 
+26	0,1	vel værdige redde fattede forsøg hindrede stor doktor uvilkårlige kloge folkene tidligt afsnit taber tilgiv hævede trøste oftere råheden slumrende 
+27	0,1	kan tid enhver thi ting gang drev hus hovedet georg indre skikkelse samme vakte interesse brød vendte dannede tro hverandre 
+28	0,1	stolthed akkurat forsøge flugt reisen livlige teppe igår føie sænkede udmærket huset sofaen nødvendigt pen teint bestræbelse studium ven hilsen 
+29	0,1	hjertet beskjeftiget ånder dunkle holdning lyst natten ædle speil ydmygelse vove fald indtrykket søger tilståelse syede overvældede broch lege jordbund 
+30	0,1	forstå løse gjøre værd strømme stærk stedet forgjeves opdagede caspers stødte beholde medlidenhed ubetinget hensyn hurtighed forstyrret sidder tilbage uorden 
+31	0,1	spurgte ensomme bestandig såre gulvet hus kammer vendt skikket syntes vovede usigelig dansen sligt begynde fremtid blikke umærkelig tjene mors 
+32	0,1	senere tanken forskrækket såmeget idelig gut sag stien greb taushed sangen nytte glas behøvede fordringer toner ringe engang tilsidst slet 
+33	0,1	hjemme almindelige uro trak rigtignok inderlig byde stræbte skat luise tilfreds forstand vundet snil moder virkelige oprømt svar bragt glatte 
+34	0,1	blevet søstrene kjendt slag bagefter øre grunde dybeste stillet naturligt frelse minut skjød forlovelse førstningen ungdommelige fleste lysten humør bispekammeret 
+35	0,1	haven glad selskab besøg skulde gjester høitidelig møllen foran vil kreds træde levede voksne itu ventet blikke usædvanlig agtelse sag 
+36	0,1	sig hans ind ganske blev men hele sin første dag mellem således vor bliver egen fordi ansigt inden aldrig udenfor 
+37	0,1	gav trang hjemmet råd tilstand fødder fornøielse led elske bevidstheden bævende bøger ren særdeles tynde goder vågen tøiet sorte bruge 
+38	0,1	datter håb både finder drømt forandret tages møllerup hjælp lidende stue lampen dermed fylde fuglen krævede nylig opdage fortalt såvidt 
+39	0,1	lyset sad blot stumme høieste ovenpå blikket båret omtrent tvivl fraværende indtagende duft skamfuld afbrydelse forstillelse boede undlod mage pinlige 
+40	0,1	samtale lære timer hviskede falder styrte deilig overalt første skjønheden frokost rørende bleven naturlige vemodigt halt skinnet efterat beboerne ment 
+41	0,1	seng nyt dels timer skue henne miner afsky forresten røbe mode blot galt skabning fred modtage resignation gangen forvildet sandere 
+42	0,1	tanker skrev ånd tvertimod deltagelse øvrige strakte feighed havestuen travlhed sandsynligvis rørte råder voldsomt syge uheldige vigtighed seks indflydelse hygge 
+43	0,1	vindu tilsidst penge falden egne fod stansede sort vækker ubehagelige smeltende forklaret føle flygtede triste tilstande istedetfor sjelden uge pas 
+44	0,1	smertelig tom sådanne bryde forsvandt hemmelighed sagen egnen hårde forsagelse venlighed sunget land tvivl giftes afspeilede opsøge møblerne ydmyghed såmegen 
+45	0,1	megen fast sagt indenfor vinde mening udviklede bort lidelse bemærke valg bekymring kreds ironi veltalende vedholdende vinduer tvivle hemmelighedsfulde udseende 
+46	0,1	var han dem man skal min alle når endnu alt sit amalie ham stod nogen anden pige gik måtte unge 
+47	0,1	efter være sin blive vel tilbage ret før stakkels liv gjør ofte kunne ung sandt edvard kjender brev bevægelse landet 
+48	0,1	sprog skygge lyden rev nærmeste forståeligt døde kvindelighed formeget stykker spørger langt enkelt beslutning særegne margrethes omrids vemodig uartig livslyst 
+49	0,1	blandt folk grad den omhyggelig trofast brud vred brune forsømt dertil opad caspers byen grundigt vidst åndede venskab historien ufrivillige 
+
+<550> LL/token: −8,39745
+<560> LL/token: −8,39182
+<570> LL/token: −8,40238
+<580> LL/token: −8,41404
+<590> LL/token: −8,40463
+
+0	0,1	hører veninde hævede bestemmelse rygtet flere ligner rette uvilkårlige høirøstet følgerne sørgelige indledning munter ære poesi hovedet resigneret bedre lina 
+1	0,1	inde dannede varme kvinde musiken lovede velsignelse speil forundret stien forlovet dermed ungdommelige fru beskjeftigede vemodigt mål spillede fuglene håbet 
+2	0,1	øie haven mindst ulykkelige naturligvis menneskene rig historie brandts roligt skjult sommeren lyttede almindelig blanke tanken rundt hang faders hemmelighedsfulde 
+3	0,1	gut scene miner villig tom vending barn kammer byen findes lette største smukkeste flor opfatning troen daglig erindrede nedenunder ventedes 
+4	0,1	hun havde kan ham hvor fra skulde eller ingen kom mine ord müller mand ligesom hen lidt sagde være tror 
+5	0,1	håb blevet veien bære talt tvivl seng hvortil lide vente erfaringer elske sat kunde lægger svage leilighed skygger hjalp volde 
+6	0,1	selv allerede neppe par rigtig begge undertiden gav lægge megen bad hvilke hænder sjelden folk hverken selskab begribe udbrød vakt 
+7	0,1	overmåde syede forklaring brændende beroliget undlod eks kjereste overstået behagelig gardiner broen sødt bråd dernæst tegnede gjennemgået dragt leve hvortil 
+8	0,1	hine hel egentlige bagefter deiligt billede endt modbydelighed trænge enden lokkende seng strenge forvirrede bringe bispekammeret underlige margrethes bane benyttet 
+9	0,1	tante bevægelser pris enkelte virkeligheden føre lune mildt rose glas rige forstå himmel passende ansigter nævnte sidder lampen hør nytter 
+10	0,1	sand gav stak lader dunkel ulykken virksomhed stammede iveien hid hadede forekommenhed speilet vert levede slutning snit fornøiede passeret jubel 
+11	0,1	skjælvende eier erindring rørende strålede mangengang modtage smerteligt ydmygelse sørge lidenskabelig styrke forekom rørte oppe anledning alvorligt skabt forstyrres moderlige 
+12	0,1	vise gjennem kanske desuden dybe kalder elev hvorved langsomt berørte skjønheden dans hemmelig måtte mørkt giv springe sænkede øinene evig 
+13	0,1	men denne ved dette kunde vil være igjen sagde deres sofie gamle intet netop hos øieblik hvem bedste blive fik 
+14	0,1	det den jeg ikke der til som med har mig hende noget hvad kold dig mere disse også kun mod 
+15	0,1	drevet ville bestandig kjender tilhører derefter rødmende drager valgt gjerning glødede indtrykket mangler nær kaldes forskudt tilværelsen svagt forandringen ovenikjøbet 
+16	0,1	indre menneskelige skrækkelige tilligemed øiet heroppe skjelne fattede vemod umage indtaget sjelen voldte klog hvorpå hvorfor nei hilset værdige eksempel 
+17	0,1	retning herligt stivt høitidelig rædsel evige vare særdeles usynlig mekanisk praktiske tør frygter glinsende trist sfære intet kors forstillelse trække 
+18	0,1	vinduer grunde vågnede sangen ansigtet fortalte langs sprang nære stødte bliv betragte sende klæde rørt landskab skrev rødme nærværende blikket 
+19	0,1	end glæde hjem faldt værelse fordi børn sagde straks mange bag øine forstår grunden forbi dybere klokken sov naturen blandt 
+20	0,1	håb sprog søstrene fryd pligter alvorlige ligesålidt spøg goder øiebliks fatning karakter tilfreds lemmer mismod frygtelige mål attenårig forbigående regning 
+21	0,1	uro strakte aldeles føle græs høiere kaldte offer følge bogen tænk døtrene interessant være omrids kampe hurtighed lykkeligere væg tilegne 
+22	0,1	blå tvang momenter forsøg afslag vækker egnen passer suk udholdenhed landskabet tilhøre livligt mistro utålmodighed imellem vel sjelens bevingede høsten 
+23	0,1	hendes sin vilde sofie dog blev blot gud gang brandt sjel alene går søgte vore frem slige mor holde ligeså 
+24	0,1	gjerne usynlige skjulte ondt rene forgjæves træt bør gjenstand henne overraskede danmark formelig skikket kreds ind behøves fandtes ligesågodt berede 
+25	0,1	farvel lukket krog bevidstheden imellem bestræbte nærheden slags lukker pludseligt itide friske madame straf optaget heftig komne fordums drømme forsømt 
+26	0,1	taus forsvandt fremad nærme sjels syn hint busk mængde graner talent lilles pligt gratiøse behagede navne temmelig talen ansigtstræk slukkede 
+27	0,1	tid thi vær altid dyb skikkelse dybeste interesse hvormed befandt opdaget glemmer tager række berolige flere skrig endte tomme luften 
+28	0,1	kjendt kvindelig indeholdt vrede egenskab vigtighed vandet ler søde afbrudt forvirret året røde drømte forgjæves borgerlige kalden roste raseri skikkelig 
+29	0,1	forlade almindelige smag friske tilværelse såret bolig ligget ligeoverfor salen anstand akkurat pas livets simpel feiltagelse falsk værelserne alteret spildt 
+30	0,1	sagt skjul syg egne indenfor fornøiet sikkerhed tro kapellanen gjælde klinge skarpe værdig henvendt afskyelige tal bedraget solens gave opdagelse 
+31	0,1	mændene ønske åbnede skjær dennes yderste samfund omhu ædle opførsel tabe ånder forkyndt såkaldte erindre heftighed tingen himlen volden hænderne 
+32	0,1	således hverandre forbindelse hund piger vække husker beskjeftiget egenskaber egn forvirring ungdommen stykke bord lidelser ordentlig dygtig seire almisse rød 
+33	0,1	drev føler dets høieste sagde natten brevet falder byrde fat krogen istedet flyve parti klar behag svaghed samlet uforstyrret bekjendte 
+34	0,1	rette passe forandret synes skuffet sagte dagligstuen steg mærket båret fortalte nødvendighed sommer dyrebare væsens hensyn tændt frie bekjendt side 
+35	0,1	grå ligeoverfor hals forstået reisende begyndt barndom angik byde gåde uheld udvortes indfald hensigt lukke udbrud skuffelser skikkelse gårdens humør 
+36	0,1	sig hans ind ganske hele men første dag mellem enhver vor bliver luise egen hus inden liden stemme hin udenfor 
+37	0,1	tak alligevel forekom ondt piges mærker tabte igjennem samt ole dels brune tyst vende tynd nyde hurtige valg dagens ide 
+38	0,1	talte både post skrive forrige solen gjentog moders midler alleen vanvid skinnende førend karoline holdning fred anede temmelig skeet rødt 
+39	0,1	mangen oplevet hustru uendelig støtte finde naturlig stilhed mødt neppe omgivelse osv oprør synneve pen skin spørg brav desuden malede 
+40	0,1	tilmode lykkedes hårdt lagde stilling person indenfor sandhed milde fødder klage lidende derfra overordentlig duft tilhørte ilet roser giftes latterlige 
+41	0,1	uhyre haven trænger synes præg slog begynde juni udviklede knæ inderlig provstens falden tillid plage kaste tilfældigt uheldige vogt naturlige 
+42	0,1	mild idag derinde kvindelige munden pigen menneskelig øieblikke stræbte bede bød tider engel fint hvælving efterlod bryde brug kvinde derved 
+43	0,1	høit andres omtrent samle stockholm herrer almindelige sædvanlig istand overraskelse forsvunden fornemmelse fordringer fjeldet ængstelse pleie misforståelse andens dunkelt individualitet 
+44	0,1	reisen ilede børnene harmoni råd træer tøiet lærte tilbragt vei barnekammeret fløi isnende værge bemærket blinkede kirke heftig gammelt søen 
+45	0,1	s'gu hurtigt hvide sagen lidet ønske hygge fornøielser ydmygende personlighed marie lidenskab enkelt besiddelse indtrådte tydede savnet bekjendtskab forældre underlig 
+46	0,1	var han dem man skal min når alle endnu alt sit amalie ham nogen anden gik pige måtte stod hvis 
+47	0,1	efter vel tilbage ret stakkels før liv gjør ofte sandt ung kunne edvard blive bevægelse derpå stod brev ligger søster 
+48	0,1	sætte tag synes sæteren timer ventet skjebne virkning hør flugt skrevet mon aften borte time tone førte dorthes opgave bygdens 
+49	0,1	beundring bønner gammel skreg stigende sluttede trin nei interesse adas tålmodighed almindelighed snart lykkeligvis forsikre pedant hjemreisen opdragelse flaske fortræd 
+
+<600> LL/token: −8,38736
+<610> LL/token: −8,39885
+<620> LL/token: −8,38775
+<630> LL/token: −8,40491
+<640> LL/token: −8,38432
+
+0	0,1	tilfreds kinder ville stærke müllers farlig deilige velsignelse bunden børnene røbede forrige lægen samt ubetinget modsatte beherske sov heftet utallige 
+1	0,1	kalder dunkle støtte idetmindste vindu læste nyde svaghed agtelse træffe træde marken vred tørt betroede forsikrer bedste barndoms strålede travlhed 
+2	0,1	tegn talt grad alligevel vinduer mon mærker springe ungdommen dans tomme venlig bringe lampen båden trygt punkt brav spurgte bryllup 
+3	0,1	veien ske blive fornøielse forekom seng ladet dermed forsøge alleen tête dag erindring mildt damerne hast fristelsen forlod derved husholdersken 
+4	0,1	hun havde ham kan fra hvor skulde eller ingen kom sagde mine anden lidt altid ligesom müller hen således tror 
+5	0,1	taler klart sat besvaret mellem grunde ønskede forståeligt forsvunden tabe skin flugt måde forene venskab suk høieste resigneret hvilede betragtninger 
+6	0,1	selv allerede gav rigtig snart par neppe begge undertiden gammel gange talte fundet ellers traf sjelden lys megen hører trøst 
+7	0,1	ønske haven provst forklare stivt sidder længere øvrige bange fortjente udmærket heri simple føler reiser stirrede forskrække uforstyrret vinden udsigten 
+8	0,1	desto bag imellem neppe dets gud spil trænge tages talent lykkeligere dansen vid feiltagelse uundværlige grusomme samlede ufrivillige drømmende indtrykket 
+9	0,1	skjønhed søstrene lov forlade blandt ridder fjerne bærer antog naturligt drik musiken vrede beskjeftigede udråb lyden ydmygelse bækken røbede rose 
+10	0,1	drømme villig stuen breve heroppe reisende forladt præg berørte madame osv udsigt nærmede naturen seks busk fornøielser vemodig slået lege 
+11	0,1	drøm skjebne lød lune skat nærhed værd ånder ligesålidt dæmpet byde nysgjerrighed faren stedet henvende sikkert passe pibe redning uimodståelig 
+12	0,1	kolde pris eier hvile visse usynlige derhen sten ladet egn snil bevidsthed bliv optaget brug forsømt tungt bereder gulvet stykket 
+13	0,1	men denne dette ved sofie kunde vil være igjen deres intet gamle sagde netop hos øieblik gud vist lod hvem 
+14	0,1	det den jeg ikke der til som med har mig hende hvad noget kold dig mere disse også kun nok 
+15	0,1	værre tilligemed besynderligt piger ordentlig formeget ovenikjøbet hurtig ansigtet sendte jordiske tvivle fint hvorfra lyttende spøgende værge yndig forstyrres spot 
+16	0,1	lader virkeligheden begreb passede bord værdige rædsel nære udtalte syg dog negte forkyndt føie usandhed humør ligget tilgiv mangengang skik 
+17	0,1	ægte synes fuldkommen hemmelig blikke elskværdighed fordringer hvormed værelser beklage skreg interesser brystet streng blomster lidenskabelig elsket vende fortræffelige vænnet 
+18	0,1	øre talen inderlig lokkende nærheden andre reiste fem smukt slægt bøiede skygge siddende naturen maria glimrende derefter stilhed historien livlig 
+19	0,1	end glæde faldt går fordi datter burde nær stærkt klokken rette både bar dybere fuld mærkede hvoraf dybe smilende virkelige 
+20	0,1	derved farvel anledning hvert grund fulgt elsker opmærksomhed fødder herrer vanskeligt skikket tyve stødte vække høitidelig toner opholdt sneg mangel 
+21	0,1	fremmed sank vakt holder tidligt brede gulvet krævede skjulte rose mulighed rørt listede standsede ære kjender mandens umage forspilde græsset 
+22	0,1	veninde sidde kristiania gode ren sluttede anede læber rev tænk fatte naturlige vågnet passende hænderne fraser revet betegner beseire mad 
+23	0,1	hendes vilde sin dog blev blot sofie brandt sådan gang søgte værelse alene vore side frem mor ligeså holde kort 
+24	0,1	kone sag tur flere gribe forstår udviklede samfund vanvid opdragelse ledsaget længesiden tyst derinde stråler bygget ubehagelige pragt sendte vanskeligere 
+25	0,1	bragte kjole synet tak smule rigtignok tidlig frisk tilbud flere s'gu forandring skrækkelige glemt fører venlighed udvikle fandt modtage forstyrrede 
+26	0,1	hurtigt opsigt gid bad dyrebare øvet høi sorger reddede menneskene straffe igjennem hårde fornøiede eiendommelig agte stanse indeholder støde bor 
+27	0,1	tid drev ventet sandhed steg stillet hjælp deltagelse netop amtmandens ældste skinnet rede bittert tider billedet kampe værdt onde hel 
+28	0,1	aftenen oplevet åbnede kalde sligt fri noget voldsomt amtmanden blege tom beslutning levede tal vinduerne bedrøvet endt tilfældigt loftet sørge 
+29	0,1	blanke lide forundret norsk dagligstuen opmærksomhed forretninger syede fine bør dunkelt godnat velsignede trappen hjalp skamfuld sende forelsket nei iaften 
+30	0,1	sagte søger kvindens føle gjentog falden hævede strenge skjul skridt indflydelse klæde heftighed glinsende betydning vælge flygtede trykkende omgivelser ensomhed 
+31	0,1	forsikrede brandts rundt virkning temmelig oprigtig figur kjender bestræbelser dybeste passeret frokost bød spil forskjel hjemkomst stemning lyttede stærkere egnen 
+32	0,1	mødte fordi hverken passer jord nylig uvilkårlig mennesker herlige veltalende sov jer bevægelser træ skarp vover prøvet snarere overvældede sofien 
+33	0,1	alting værste vendt erindrer tilhørte mindste værelse ivrig gjælde anders ædel bånd møblerne derfra oplevede kjøns sindsstemning inderligere anstalter ædelt 
+34	0,1	høist vertinde vert fald angår interessant tildels sikrere afbrudt husmand bugt påskud havestuen elise pålidelige simpelt fortabte stene omtalte mistroisk 
+35	0,1	afsted borte dansede skarpe uvillie henseende indgangen flor ømme ofte arm omrids graner pen strømme beholde natten bede sig bladene 
+36	0,1	sig hans ind hele første dag enhver ganske mellem hjem bliver bedre fruen egen vor barn inden thi hus luise 
+37	0,1	iver tag drømt fine grebet mild dybeste langs stemme ole menneskelige nærmere adas underlige ide utålmodighed evig vovede dertil adskillige 
+38	0,1	ganske kristiania ivrig fat ængstelse arter luises mariane bogen øieblikke uhyre skrevet virke såvidt året tykke mildt deilige tilstande afgjørende 
+39	0,1	oppe ofte stærk skjønne hemmelighedsfulde manglede godhed får lykkelig angreb lægger strax såmeget fjern hel blotte ringe veie tvivlende middel 
+40	0,1	hør hest glade synneve hvid korte egenskaber opførsel bevogtede nærmede mindste blanding rum blikket armene husker forekommer hytte volden sorte 
+41	0,1	blevet herre kjendt vinde mænd begivenheder længere søde smukkeste overmåde atter mildhed frue hjertelig jagt verden hvor timer smeltende himmelske 
+42	0,1	forandret ende høieste endte såmeget ligger bruge fulde skjøn blandede eder retning kjøn behag forrige trøstede dæmonisk drillende tidlig mændene 
+43	0,1	piges langsomt skjød bevæge bitter elev ophøiede hvorved billede suk speidende landskabet kaldte ærinde følt offentlige scener ængstelig giftet triste 
+44	0,1	bag fulgte vakte lyd sæteren tilstede rolige grunden vant munden omtrent vare sat bryst træffer mindre optog tålmodig ubemærket forresten 
+45	0,1	margrethe landet friske søvn ældre hjemme forgjeves forlovet længes rørende øvede lærte lilles faderen kanske bønder danner tilende bah grænseløs 
+46	0,1	var han dem man skal min når alle endnu alt sit amalie stod nogen ved gik måtte vel hvis unge 
+47	0,1	efter blive tilbage stakkels ret liv gjør kunne edvard bevægelse før sandt brev ofte plads ligger mest frøken søge øie 
+48	0,1	karakter husker løb hund hang krog guds forældre skulle drømmer mødt høre røst tause musik leilighed ædle forældrene forsikre selve 
+49	0,1	reisen enkelte høiere bagefter indeholdt herrerne ene betragtede enkelt vogt love tjene pinlige stumme stavelse stemmer drager skatte voldt grund 
+
+<650> LL/token: −8,3976
+<660> LL/token: −8,39249
+<670> LL/token: −8,40386
+<680> LL/token: −8,38978
+<690> LL/token: −8,39296
+
+0	0,1	døtre synge aftenen udbrud klang styrte almindelig deilige hvile kvindens lidelse håbet færdigt voldt formelig tvivlende betingelser landskabet vende musik 
+1	0,1	smil tunge drevet kjøbenhavn stilhed burde trofast bunden skulle snil stigende støvet malede tilfældet mors kraft stemning adspredt husholdersken rent 
+2	0,1	jorden deri stien sådant spørge række ovenikjøbet høilig betog humør undgik mildhed fint spørger skjønheden nogle beboerne adskillige møder lystighed 
+3	0,1	klæder glemmer jord dygtig borte dølge gardiner indfald bladet tilstrækkelig efterladt begavede tilfældigt rasende tåle ængstelig vognen straffe glemt fornøiet 
+4	0,1	hun havde ham kan fra hvor skulde sagde ingen eller kom være anden mine müller mand ligesom hen altid lidt 
+5	0,1	del hører ser tilmode bemærkede strid hemmelig sidste tilbud kræfter blomster fuldkommen veg synlig situation pålagde rædsel høitidelig fremtiden kvindelighed 
+6	0,1	selv allerede snart par begge rigtig gav bag gange lykkelig talte landet ellers gammel afbrød vedblev megen lys nat sjelden 
+7	0,1	dyb stærke stilling veltalende aften rødme dum kaldes trække sødt uundværlige ufrivillige stormende fæstet øieblik gjennem mer vakker blide bese 
+8	0,1	inde grebet spor anderledes sag tænkt skikket ansigtet kirken mærker udholdenhed fremtid alleen berolige henvende landskab uagtet iagttage herskabet ukjendt 
+9	0,1	mærke længer kolds sikker lukket bønner tom byen begavet svaghed viser rundt ømme naturlige beregnet vundet livlige gårdens lever guds 
+10	0,1	mangen holder kulde stumme opgave hvilede fandt roligt rose følge menneskene bevares romaner flytte medlidenhed forekommer inderlig tiden stockholm pragt 
+11	0,1	andet voldsomt madame akkurat ulykken hine portræter hensigt beskeden udviklede gut yderst gode mod desuagtet behagelige henne beklagelser kjøn sort 
+12	0,1	kaste søgt adas herlige temmelig drømmer simple åen kontrast pladsen ånd stærkere dvæle stine middag almindeligt baggrund tegn rede fortrolige 
+13	0,1	men denne ved sofie dette kunde vil dog sin igjen deres intet gamle netop hos være gud sagde øieblik bedste 
+14	0,1	det den jeg ikke der til som med har mig hende han noget hvad kold dig disse mere også kun 
+15	0,1	kunnet mindst sky rev skrevet forsøge alvor spise moders således fløi derhen optaget passede tynde smerteligt spillet blad fornøielser møllerup 
+16	0,1	almindelige gård skrive høi deilig skjul talen hesten lovet gjenstand osv bruge græde egnen usædvanlig punkter bliv usigelig trykkede plads 
+17	0,1	fast trin blikke mama herligt talt brast stand opdaget norsk ramms blanke medlidende bør forbauselse sige porten rigt himmelske kampe 
+18	0,1	sat mening faders fremmede indre bygdens havestuen elske ret ubemærket bøiede sangen vakkert afstand dorthes broen væsens broder ledsaget himmel 
+19	0,1	end glæde går fordi datter tag besynderlig hvordan burde dybere stansede sagte klokken tilsidst høist forladt damer morgenen hvoraf provst 
+20	0,1	rette fået dannede tone nytte skreg græs bemærket farlige istedet fordums lovede interesser giftes iveien ubegribeligt lege klart erindrer tillade 
+21	0,1	måske rystede samle hjertet tête rigtig læst bevidstheden bevogtede syge nærheden forlod personlighed lyset skylden lægen provstens vover skylder vinden 
+22	0,1	igjennem skoven spil beskjeftiget kvindelig trygt hundrede ældste forsøgte betydning formåede slip forresten uafladelig livligt kjerlige smag dragt provstindens forestille 
+23	0,1	hendes vilde blev sin blot vor dog brandt værelse søgte vore alene frøken høre slige side hvormed ligeså dit langt 
+24	0,1	kjendt visse brud fortvivlede hænderne rolighed kjole gifte adolf vilje papir synke foragte nærme råheden bekymret piges fatning virke leiligheden 
+25	0,1	bragte jomfru sandhed vandrede fyldte deri midler gåde øiebliks styrke linier lange kommen eller boede tilhører eftermiddagen lyden udvei opdragelse 
+26	0,1	nærmere uventet gjælder himlen besluttede pen barndom fuldendte mandens dukke lave forstemt blevne forhold birken skrækkeligste svævet skete giftet istedetfor 
+27	0,1	forbi ladet hvilke margrethe dunkle ramme gjaldt veninde naturlig post forlovet stillet præg kjole time milde fortabt helt engel døden 
+28	0,1	stirrede strålende farve falde skade fortalte ældre voksen elskværdighed blandede feighed naturligt velsignede tålmodighed mumlede barns røbe bange helst lykkelige 
+29	0,1	yngre ret hustru historie uret reisen korte alvorlige angreb ånder træt dyrebare tider selskabet slår træder uge manden trådt foragt 
+30	0,1	eget pause besynderligt modtog røde tale alder skuffelse livlig falder brug omhu sidder forfængelighed bah tålmodig frie evig forståeligt ordet 
+31	0,1	næste fordi husker lader nær pent gifte slægt takke istand flor forenet karoline roligt himlen hvid vognen hjemkomst skuffelser ledet 
+32	0,1	fare fryd tilside glade knæ søstre skrækkelige hviskede vanvid parti broget bleven leilighed graner lykken mor skin stockholm stavelse tykke 
+33	0,1	påfaldende samme bragt lyd skjebne sofaen stedet indenfor videre inde forstand søvn efterat forlade dæmpet søde forstyrrede nedlagde menneskelig flåden 
+34	0,1	ensomme guds hel angår fri taus behandlet stivt forreste bolette begynde uvished undlod livlighed tillader sandere øieblikke halsen snit såmegen 
+35	0,1	fremmede nemlig morgen afsted sæteren igår kolde opdagede anede sag hånden begreb vistnok fjerne nylig punkt ønskede udtalte heroppe forklaring 
+36	0,1	sig hans ind hele første gang dag lille siden mellem hjem egen gik barn luise inden thi vort gået hus 
+37	0,1	hår desto såre hvorved lægge hente mente øiet vanskeligt sagen vare tanken samtale eder brændte tyst ude fat tidsnok slumrende 
+38	0,1	stærkt lagt kone øvede byde nytter største sten forestillinger heftigere ringeagt værelset bliver simpel cigar ubevægelighed betroet krogvold pligt hængte 
+39	0,1	blevet gammel vindu nedad bogen betragte borte gid bladene ler sikkerhed forlanger loftet råb spidsen vinduerne erindringen komne smag strakte 
+40	0,1	lægge dets streng overordentlig lykkes imidlertid trænge bøn hjælper omgivelserne lade teppe daglig barns betroede skriveri tabe skjult kvinderne toner 
+41	0,1	dybeste tilværelse virkeligheden stolthed altså ydre reise færdig forsøg scene søster overbevise høit elskværdig slået derfra fortælle indhente strakte vuggen 
+42	0,1	livets drev bryst klage pianoet ungdommen billede forvirring kom blomst indeholdt forbi marken spadsertur sal grusomme kampe stødte tilstande livs 
+43	0,1	bagefter sprog formodentlig nærhed begyndt udmærket halve spurgt itide indtaget danser ombyttet mon bevingede uvisse frygtsom misforståelse harme ane beklemt 
+44	0,1	sank kunne trang brandts venter brede styrke slag udvortes omrids speil nyt virksomhed råd lyd hurtige travlhed tvivle mode banke 
+45	0,1	tanken gjester provstens dans kjerlighedens stammede tal synneve græd s'gu ville led skinnet landet forinden forstyrre åndelig måder sammenhæng brandt 
+46	0,1	var han dem man skal min når alle endnu alt sit amalie stod nogen pige sådan måtte tid unge vel 
+47	0,1	efter blive stakkels tilbage liv ret stille ofte edvard kunne slags brev veien spurgte plads søge øie til grotten øinene 
+48	0,1	ved deraf forskrækket forklare frygtede vække müllers søn breien eier tilligemed bord værdige nære erindrede egn fulgt fortalt ilde fatte 
+49	0,1	skjule sluttede stum stige sjelen forsvare brystet lykkeligere blanke tabte navne endt ædle slippe uartig kinder overgang turen sirlige atlask 
+
+<700> LL/token: −8,39758
+<710> LL/token: −8,38735
+<720> LL/token: −8,38227
+<730> LL/token: −8,39673
+<740> LL/token: −8,39881
+
+0	0,1	edvard sandt støtte forrige deilige glemt dammen røde elskværdige reist sprog værre værdige underlige iveien mangengang portræter latterlig bladene føie 
+1	0,1	edvard mørke ramme plads smule virkning hvorpå nærhed indgangen formodentlig glemme harmoni klart flugt pludseligt ubemærket forstyrre oprør fint skjul 
+2	0,1	langsomt fulgt musik jorden deiligt marken svag tynde norske eder bitterhed bogen vid skrig volde provsten vågner grusomme hensyn und 
+3	0,1	hjertet beundring farlig rædsel trænger bryst skikket tabe brystet lænestol flåden forbauselse passede ventet slip trække holdning lystighed høirøstet huske 
+4	0,1	hun havde ham kan fra være hvor sagde skulde eller ingen kom anden end mine hele müller mand altid ligesom 
+5	0,1	del mildt alting herligt tilside knæ stue gud roligt dels mørkt blomst brændende karoline skabt sammenhæng forestillinger lig bor modstå 
+6	0,1	selv allerede snart rigtig vore bag gammel ellers gange megen drev lys både hverken selskab forældre livets hustru forekom nat 
+7	0,1	grund drøm smilende sæteren råder vognen uendelig anledning mama rørte vildt fare dobbelt vemod mål igjennem hemmelig betragtede optog ømhed 
+8	0,1	mangler lyset bedst hals desværre hånd fødder mangt glæder vær kanske levende levet tilhørte dorthes meget hjertes hjælper forsøg hid 
+9	0,1	besynderlig talte søger usynlige mund piges modtog stedet beskjeftiget tungt derfra dag derpå negte fem manden stammede behandlet bestemmelse hjælp 
+10	0,1	provst rystede temmelig naturen kjendt lokkende træder ungdom afslag ældre pibe væk stræbte kjøn ler husmand liggende hjerteanliggende spilde kalden 
+11	0,1	hurtigt forvirring sorte forståeligt tilbragt skuffelse klæde sædvanlig urolig vinduer efterhånden deilig bevidstheden trætte glødede lyste oprømt bestræbelse sunget naturlig 
+12	0,1	satte stenen skjær fader anede skuffelser gik dømme krøsus familierne daglig sikre råb løs springe lutter pianoet afløste svage rolle 
+13	0,1	men denne ved sofie dette kunde sin vil dog igjen intet netop gamle hos gud deres øieblik bleven øine efter 
+14	0,1	det den jeg ikke der til som med har han mig hende noget hvad kold dig mere disse også kun 
+15	0,1	landet idetsamme hørte mangen lært hang angår trofast altsammen naturlige lyden ulykkelig tillige virker udbredt ophøiede krog rød hverandre resigneret 
+16	0,1	gård familien berørte vred denne lovede bruge nylig kjende vidst faren røre malede overlegenhed snarere spidsen gratiøse tjent værk fortræd 
+17	0,1	spor provstens mente søge forenet tilbage større byen skinnet koldt fat kvindelighed stykker velsigne opgave selve student mærkværdigt lege kapellanen 
+18	0,1	rigtignok tunge præg bagefter tvertimod tørre uhyre luises adas dyrebare falden enkelt beslutning videre bestræbelser ansigter afbrydelse sender ingenting himlens 
+19	0,1	end glæde fordi taget allerede burde spurgte død datter ulykke veien øieblik ladet vendte himlen nærmere styrke dragt står skade 
+20	0,1	bleg holde rose mening stirrede griber læber forbindelse tårer velsignelse kyssede skete mors mærket omhu ydre vert friske stole kræfter 
+21	0,1	yngre hvilede vanskeligt vindu frokost ubevidst sommeren iver art nære hængte sfære modig lig uafladelig tilbøielighed lykkeligere opfyldt gnist tilintetgjøre 
+22	0,1	grå tone gjester frygtede følelse tårer jord fornuftig frisk svaret øde suk lidenskabelig kjende herop fuldendte dit dybe vilde guld 
+23	0,1	hendes vilde blev blot vor brandt søgte alene værelse høre fået eneste slige vis langt ligeså skyld derpå nye aldeles 
+24	0,1	skjebne naturligvis savn imidlertid caspers takke sneg uskyldige lave rygtet glemt beregnet glad passe rødt livlige sprang gamle berusende pas 
+25	0,1	hvide nemlig tegn hine borte luft kolde ilede bør høiere følge naturlig snil pligter levede vant bærer bestemte dannet udvikle 
+26	0,1	hår høit gifte træffe natur menneskelig søsteren armen opfatning foregik brev forklaring roser danmark timer indtrængende tanken galt forstyrrende bøger 
+27	0,1	dog nåede sikker dansede overrasket forgjeves besynderlig lette mødt andres rørende forsagelse tidligt anskuelser forstyrret frøken herskabet sikrere åndelig utallige 
+28	0,1	enkelte taler går tørt glimrende velsignede blinkede skarpt veie øiebliks beklage vove fri vendt redning duer tildels bakken umulige lide 
+29	0,1	kristiania bedrøvet græs krogen træer adolf fortrolig udmærket nærheden efterlod reiser mit gårdens speilet hvidt såsandt itide ufrivillige eiendommeligt kjørte 
+30	0,1	nyt margrethe overraskelse mærke streng høitidelig natur gift derved passeret sådanne momenter trak såvidt dans resignation behøvede spring andens brandts 
+31	0,1	lære stolthed foran blå flytte hårde behøves drømte uge broget kaste duft står færdigt nærværelse formeget duftende drømmer øieblikke livligt 
+32	0,1	følelser forskrækket forgjæves gjaldt tomme side ønsker sangen kammer munden reddet bolette træde mulighed led tilfældigt dukke stødt hytte halt 
+33	0,1	hånden næste tur sat dagligstuen tag hesten fremtid mekanisk smukkeste vilje milde rødme billedet røbe simple søge mangel vandrede skaffe 
+34	0,1	lov mændene oppe piger skjult grad øiet bedste søstrene alvorligere kjerlige barndoms blussende instinktmæssig evig fleste kors forene frugt hverv 
+35	0,1	husker dernede blevne ondt farlige moders sådanne skygge egentlige glemmer fattet barndom lov hest skrevet sædvanlige elskværdig siden omhyggeligt byde 
+36	0,1	sig hans ind lille gik første gang dag enhver siden mellem egen inden luise thi vort hus straks stemme hjem 
+37	0,1	lægge tanker sagte inde høist desto familie breien naturen hviskede lukket ren tages trist vovede stilhed agtelse fare krævede forstenet 
+38	0,1	ind fuld sendte øvrige tider forvirret sande uventet drev vågnet møie besøge fod ventet frem barns surrende overfaldt dit evner 
+39	0,1	siger hænderne fulde forstand læst fjerne uret forstået hast usædvanlig beundre såmange stærkt umærkelig forældrene hest egn offentlig glemmer personlig 
+40	0,1	mødte fortalt hører stien græd afsted venner farve bliv overordentlig byrde juni skue træffer trykkede skulle vertinde legeme stum stige 
+41	0,1	trængte mindste bevidsthed ensomme stockholm midler venner nyde høilig hår interessant synneve aparte dølge leiligheden roligt almindeligt knyttede klage historier 
+42	0,1	forladt grund veninde fruens læse guds udbrud giftes behøver herrer hurtig bitre bunden haven bevægede teppe punkter elendighed hjørnet landskab 
+43	0,1	dyb egne glas blege vinduerne slår fortjente sluttede gav skuffe misforståelse nærmelse forreste nedenunder indflydelse kalde frygt fornøiede bispekammeret vished 
+44	0,1	vil musiken spøg nedad del troen beder vistnok brandts havestuen veien fortjent slået helst istand pianoet sjelen optage blevet ømme 
+45	0,1	ende dermed øinene sådan andres helt række derom stivt bevogtede voksne sikkerhed støi frygtelige vred tvang bagatel kontrast hvergang tause 
+46	0,1	var han dem man skal min når alle endnu alt sit amalie stod nogen pige måtte tid sådan unge hvis 
+47	0,1	efter blive ret stakkels liv stille neppe ofte kunne vel magt brev grotten samme fulgte danse ønske stærkt slags morgenen 
+48	0,1	eget halvt tanken længere skarpe hemmelighedsfulde smertelig styrte bryde faders steg blanke valg mon brede ære opgave fortvivlede heldigvis seddel 
+49	0,1	offer bord strømme såmeget optaget bordet blad sjeldne penge ligge bolig mismod såes jer vand forlovelse lærte forlegen ubehagelige lettet 
+
+<750> LL/token: −8,39137
+<760> LL/token: −8,39202
+<770> LL/token: −8,39503
+<780> LL/token: −8,38295
+<790> LL/token: −8,38455
+
+0	0,1	forbindelse oplevet følge fremtid kampe sider tilhørte benyttet stolt lykkeligere selskabet anstrengelse interesser ydmygelse barmhjertighed benyttes råb almindeligt overgang værk 
+1	0,1	fader smule farlige tvang frygtede elskværdighed evige bliv stående skade negte optaget adspredt virker sjel timer skred resignation fornøielser straf 
+2	0,1	gulvet dunkle herefter fyldte rigtigt trods onde omrids fruentimmer bekymring kunne såmen fint ligner svarede efter foragt beskjæftiget hente fortrolig 
+3	0,1	midt vær mente sjel når hjælp ventet scene fulde alder fulgt kreds tålmodighed stirrede blomstrende slægt begreb speil besluttede barnlige 
+4	0,1	hun ham havde kan fra hvor være skulde eller ingen kom hele sagde anden mine müller mand ligesom altid lidt 
+5	0,1	nye himlen satte kolde milde egenskaber gået bogen præg spise herrerne bestandig moderen fat blussende falde bladet bønder lægen røre 
+6	0,1	selv snart allerede rigtig tale bag gange feil megen stille vore imod står dengang såre hustru rig klang trin skjul 
+7	0,1	hår borte alligevel stue forundret trak anede godhed drevet ramme bedrøvet lært dalen små bøn vort skete taug glemme hænde 
+8	0,1	familien knæ følgende syede kjøbenhavn foregået døden anlæg forelsket speilet bevogtede tilgiv drager und forbandet dunkle krog vanskeligere øieblikket danmark 
+9	0,1	nærmere virkeligheden bestemmelse nytte fordi dels bedst forstenet høieste ungdommelige dengang øieblik reiser arm hurtige tungt krogen støi sikkerhed uvished 
+10	0,1	grå egne trappen brast midler veltalende husets mors hast naturlige tabte ubetydelig forinden desuagtet slippe klinge herlige ydmyghed hjemmet helt 
+11	0,1	breien lyd led munden boede opsigt bord grænseløs begeistring vigtige fået ligefra tankefuld beredet flid instinkt vegne regnskab hængte fortrolig 
+12	0,1	alvor skoven besynderlig hund sige forenet først tanker almindelig erfaringer følt krævede forældrene behøver tilstede drømte døde situation beundre falde 
+13	0,1	men denne ved sofie dette sin kunde vil dog efter igjen sagde intet gamle netop hos gud øieblik eneste glæde 
+14	0,1	det den jeg ikke der til som med han har mig hende havde hvad noget kold mere dig end disse 
+15	0,1	inde burde reise mild mændene korte skeet ydre heste gid øiebliks iveien egn sofaen interessant hadede allerede nedlagde pakke anfald 
+16	0,1	derom være maria forgjeves overmåde manden kjendte måtte udmærket søn betragtede rødmende naturer tænkt overbevise skuet kaste trække ytringer øiemed 
+17	0,1	svar idetmindste dammen forklaring båden krænket capellanen jordiske skaffe forsikrer glæder åndedræt veninde gjennemgå herom personer stråle besvaret træ situationer 
+18	0,1	blade lidende pligter taushed huslige formeget ære gået sine holdning ømhed fri porten falde træder beregnet beliggenhed bolig hvidt troen 
+19	0,1	veien datter talte spurgte hverken almindelige hemmelighed styrtede stolthed sædvanlige vendte vandet dragt tårer akkurat trist rædsel tal sjels jorden 
+20	0,1	klart dennes læst fortjente eder beroliget ulykkelige goder latterlig ringe rose ventet høsten omsorg fald pris slags længsler talte individ 
+21	0,1	nærmede forgjæves fremmede stillet opholdt grebet voldte rige behøvede musiken veg tolv fortabt bevægede fordums tilbragt kunde guld drømmer derefter 
+22	0,1	dybeste læse taler giver mindste tone tomme smertelig samtalen erindring sangen dølge netop naturligt jomfru venlighed ene sover tilståelse danner 
+23	0,1	hendes vilde blev blot vor brandt værelse søgte alene høre side slige fået ligeså vis bare skyld langt allerede livet 
+24	0,1	villig dernede lov stien gift kone tête ved takke simple udviklede berørte blomst ældre hemmelighedsfulde arter art indenfor svævede tankerne 
+25	0,1	hvide tegn hine stumme større fred herre veninde påfaldende elskværdig lærer levede velsignelse fremad ubevidst skarpt herligt nærværelse skin fjeldet 
+26	0,1	grund hint den besynderligt sneg time derinde omhyggelig tørre hævede beskjeftiget usynlig flyve værelset nogen udsigt smukkere stræbte holder øine 
+27	0,1	lægge traf afsted møllen reisen blikket suk temmelig bad skuffet væsen klæde nære selskabet forsvare tilhører søger ende ord farvel 
+28	0,1	lykken føle hårde rolig blandede stammede fornøiet bekjendt træde kirken skygger bange kun forsikrede fornøiede brud markerne rigt selve sød 
+29	0,1	husker ønske hvortil nåede naturligvis luft trængte dansede offer sikker værelser vistnok skjule angår stilhed skjulte barns stødte kirke skue 
+30	0,1	dør siger sat vred deilige pris pianoet rene lever heftig begivenheder fem egnen vold vert sendt springe deltagelse penge nævnte 
+31	0,1	grotten kjendt fører gjester spøg nærheden bød vente smerteligt angreb jord glemmer forbauselse hvælving kjende lærer stine dæmonisk malede lyden 
+32	0,1	kristiania rigtignok dets lykkes strenge betragte hvormed kvindens ironi tændt nogensinde fjern deres rose mørkt tjente caspers broch hvid oftere 
+33	0,1	hvorpå afbrød følelser mærke uendelig natten tidlig høieste bryde bog læber skrækkelige friske amtmandinden halsen underlig land barnet værdt kraft 
+34	0,1	vore drøm tom mangt hvorfra retning varme blege passer gut menneskelig tilstede aparte vinduet umulighed ilet ane lidelse hid opgave 
+35	0,1	ladet styrke endt syg ilede sendte troede piger indgangen behøves desto findes værelset tynde betragtninger greben sikkert heldig kjøbenhavn ulykkelige 
+36	0,1	sig hans ind lille gik første dag siden mellem gang hjem barn egen luise inden faldt straks thi andre udenfor 
+37	0,1	sagte bestemt høist lære natur passe tilbud forstået herrer sank sagen små desto urolig dunkel uvilkårlig forsikrede farlig ligesålidt græd 
+38	0,1	enkelte stirrede udbrud brandts søgt reise får svag søger inde pigen dyrebare madame trygt nærme iagttog sandhed penge kaldes skikket 
+39	0,1	hver naturlig trang grunde flytte toner mændene daglig vinden kommet tilegne norsk forhold teppe efterladt åbent utallige høirøstede vare tanken 
+40	0,1	desuden fire disse bragte bragt desværre tunge vanskelig s'gu figur caspers ovenikjøbet uskyldige færdigt evne råd mængde fin medlidende modsatte 
+41	0,1	brød bolette begyndt bitre klar brystet turen træthed nærværende svaret uundværlige uafladelig forvinde dreie ivrigt tur uvisse frygtsom henvendt reddede 
+42	0,1	fulgte del synet finder hverandre hvilede kvinde svaghed skygge forekom evne beskjeftigede tider agtelse rødt usædvanlig opvokset ligesågodt bør gardiner 
+43	0,1	løfte idag hvile tabt forlade væsener forlovet piges helt tilfældet velsignede ridder kommen skylden ledet forskjel åndeløs øde klage egentlige 
+44	0,1	roligt især fortalt stole slag tilføiede forsøgte istand sommer forvirret bemærket varm dunkelt armene reiste forsvundet tilstrækkelig herlige eiendommeligt kvinderne 
+45	0,1	søstrene træt kald voldsomt lukket rolige virkning din ungdom kræfter vide største synneve indre nærmeste såret kinder opdage imorgen glatte 
+46	0,1	var dem man han min skal alle når endnu alt sit amalie stod nogen pige sådan tid unge vel måtte 
+47	0,1	blive ret liv neppe ofte kunne stille fandt siger åbne lys dybere synd stærkt elsker amalies tag forstand tanken tilmode 
+48	0,1	ude rev moders kalde lige gjaldt sten egne gik fordringer stedet blikke spillet hensyn flor ofte bal personlig skatte satte 
+49	0,1	dermed vidste spillede oprigtig græde tillid jagt blå fremfor stormende leiligheder samlede triste skriftemål endda livlige stund mulighed kunne slukkede 
+
+<800> LL/token: −8,39677
+<810> LL/token: −8,40258
+<820> LL/token: −8,38562
+<830> LL/token: −8,38841
+<840> LL/token: −8,3926
+
+0	0,1	følte deilige førte fordi bøiede synge lukkede derom forstyrrede nedlagde umulighed læge skydsen halve ubønhørlige hjælper volden strålede indtrykket optaget 
+1	0,1	forbindelse træt kold klæder forsikrer ovenpå bogen madame fraværende hvormange følgende afsked rødmende voldt oppe følge måtte ladet åndede lemmer 
+2	0,1	tom forstået dunkel beskjeftigede naturligt kirke spænding behandlet harme forskrække byrde spidsen stenen tilstande bred hvorpå alskens mindre uvilkårligt milde 
+3	0,1	kreds traf godt jorden støtte breien dammen idag dunkle spørge gjerne pligter angreb amalies feil passe tilligemed fjerne erindrede bevares 
+4	0,1	hun ham havde kan fra hvor være skulde eller ingen kom hele anden mine sagde müller mand altid ligesom hvis 
+5	0,1	tårer truffet værelset deilig kalde tyve lokkende skjønne nyde iveien vemod scene drømte natten såvidt fløi dybet ligesågodt sikkert oprigtig 
+6	0,1	selv snart børn vore tale end ven rigtig enten sagte samtale folk lære tante lorenz tidlig trængte trang stumme forekom 
+7	0,1	møllerup evne vistnok lagde ophold skarpt bør taug formåede kjerlige iver stivt hat kaldt sprang buret besøgte djævel trængt blod 
+8	0,1	forgjæves hør byen forlade skarpe kraft bøger utålmodighed indflydelse forstyrrer opfatning egenskaber lidenskab dødens foragte teint veiret gnist sjelens forretninger 
+9	0,1	vendte klage bemærke fortabt hænde stand følger ungt flytte müllers inderlig søndag eie bittert ønsker hverv helst menneskes briste fordrage 
+10	0,1	læse nåede brøcher vanskelig forekommer skulle glæder findes nedad takke bal satte leilighed modtage alligevel fuglen vant greben mangel danmark 
+11	0,1	omkring drage kolde indenfor nærmede tilsidst tunge gjester længesiden overordentlig fortrolig lyse din træffe fornemmelse springe uskyldige bestræbte tilhørte sted 
+12	0,1	lyset bevægelser kvindelig retning reisende gribe sædvanlig rum bære falde omgivelserne bruge tilside otte træer sig mødrene fattede loftet øver 
+13	0,1	men denne ved sofie dette sin kunde vil dog sagde efter igjen intet gamle netop hos gud øieblik glæde stille 
+14	0,1	det den jeg ikke der han til som med har hende havde mig noget hvad dig kold mere end disse 
+15	0,1	tiden flere bede syg røbede voldsomt kinder giver derpå breve gjentog syede forlovet lykkedes foregik medlidenhed trådt behøvede malede mekanisk 
+16	0,1	aldeles datter søge ligeså natur hustru menneskene piger opdaget skrevet hen uret tvivl streng hente stige reist forsøgte ømhed trist 
+17	0,1	sædvanlige vognen brudt trak smule lært sine burde bevægede lovede træder nysgjerrighed faren eier hjalp håret fortalt itide husholdersken lykkeligere 
+18	0,1	glas hang urolig søsteren dannet døren luft nytter værelser glinsende uheldige skiltes håber tilstå lilles poetisk slippe selve led standsede 
+19	0,1	grund spurgte stirrede derom forældre lyd læste kone tør desto klart føre blikket værste slag tale dets forvirring sikker glemte 
+20	0,1	forstand rakte vindu ulykkelig tilværelse dermed beslutning største forstod lænestol røre interesser velsignelse overfladisk almisse stødt fremhævede trykket ordentligt munter 
+21	0,1	hvortil forstod fryd nogensinde egn usynlige almindelig dans angik taushed beundre ryggen frisk skriveri ynde sal glødende eftermiddagen tilfældigt caspers 
+22	0,1	hvide tur dybe solen stolt lød besynderligt tone ældste nogensinde ventet passeret flyve fine almindelige skatte hvilken leende træde barnet 
+23	0,1	hendes vilde blev blot allerede vor brandt endelig værelse alene høre fået side brev bare slige skyld stort kjendte førend 
+24	0,1	jomfru vred råder stien himmel troet nytte heldigvis bedrøvet forskjellige fik båden farlige sangen frisk rigtignok pludseligt ledet overbevisning tankefuld 
+25	0,1	bestemt grad nået skjult fyldte sandelig bestræbelser atter grå væsen tjent sødt frugt benyttes fast beregnet pas yderst rigtignok vished 
+26	0,1	tabt søsteren slægt talte tête valg fornøielse sofaen vildt lune skjær fred hals blandede lig istand gråd opdragelse vrede derhen 
+27	0,1	død hvorpå skrive musik taler hende høi følge villie blomstrende begreb mildt skuffelser præg nødvendighed bitterhed seire døden lidenskabelig grebet 
+28	0,1	vandrede brud opgave føle slår miner udvortes vovede eftermiddag levede indtagende stødte livlig forenet frygter iaften tidligt tilsyneladende støi intetsigende 
+29	0,1	lægge provst forladt nogen mente barns kjole således ladet afsted uvillie svaghed ole skinnende hine givet bort marken holdning agtelse 
+30	0,1	plads kanske luften almindelige varme udbrud styrtede ånd lange læst trin ånder syge vanskeligt tillige frelse forkyndt fremfor fald øvede 
+31	0,1	megen brød kjøbenhavn hint trådte rigtigt luft harmoni land udvikle forgjeves nærhed barndoms kapellanen skam fatte desuden kirken duggen udsigt 
+32	0,1	skridt forundring husker gjaldt hvilken voldte søvn grebet stockholm stedet særdeles tvertimod ubemærket nylig blotte skjælvende tyst toner synlig interessant 
+33	0,1	uendelig styrte alleen temmelig fik taus mænd røre svagt fat havestuen husene enden tilhører vinde overvældede såkaldte forbandet grænseløs skinnet 
+34	0,1	mændene sandhed derover uvilkårlig bestemmelse pause inde simple pinlige bah bagatel ægte pludselig stykker førstningen svage villie seks samlede skyggen 
+35	0,1	finder efterat værd varm egne fjeldet breve praktiske amtmandinden bekymring godnat rolighed oppe dennes alvorligt støvet småpiger dagens usandhed samtaler 
+36	0,1	sig hans ind gik lille dag siden mellem gang hjem nogle første egen barn luise straks inden vort råbte thi 
+37	0,1	vinduet talte søstrene alting virkeligheden rørte løb hemmelighedsfulde overrasket ansigtet fulgt lidelser blad eier øieblikke lyse umærkelig forsagelse kloge fremad 
+38	0,1	dybt lader tanken suk hende tilbringe dengang høitidelig stillet s'gu forrige været stående kampe skjød henne betragte døtrene træerne tilbragte 
+39	0,1	hovedet midt stykke gård særegne lignende hest blanke tjeneste bære sommeren begyndt barndom brystet tøiet blomst forstod capellanen virkelighed lide 
+40	0,1	neppe selskabet brune medlidende sluttede mødte hvilede betragter forsikre anskuelser eiendommeligt overgang strax ren vold alligevel forsikringer mystisk ytringer uundværlige 
+41	0,1	ilde deraf trænge hund pause fører heroppe vanvid sige dels væg armen minut henimod følt bevidsthed rørende kvindelige uhyre arbeidet 
+42	0,1	lys ønske tilstand rystede høit hvile sort herlige skreg heftig krøsus duft roser tidsnok hensigt bestemte stemning armene mulighed imorgen 
+43	0,1	burde sat første mener brevet virke herefter ville tvang levet sidder iagttog hine mest gifte ilet troen bane synke røde 
+44	0,1	frue fortælle rolige godhed sank beundring rose dagligstuen lokker omgivelse krogen parti skuffe ane orden pleie berolige stilhed lytter derfra 
+45	0,1	afbrød sag skrev hverken skrig stemme bestandig værre tillid sligt ungdom hvorved gid kald rev trofast tages skjul modtog hvoraf 
+46	0,1	var dem man skal min mig når alle endnu alt sit amalie stod nogen sådan tid pige måtte unge vel 
+47	0,1	blive ret liv kunne siger neppe tanke udtryk levende ligeoverfor ofte kastede bag åbne ligeså stærkt form kulde vær søgt 
+48	0,1	videre offer plage naturlig dygtig forvirrede slige blege ydmygende ordet bønner stigende svaret støde flaske bange skin virkning skikkelser forklare 
+49	0,1	vei andres fortalte væsen mildt tabte forskrækket rene betydning forsikrede steg lever øiebliks åen derinde egne vækker gardiner blanding værelser 
+
+<850> LL/token: −8,38044
+<860> LL/token: −8,38797
+<870> LL/token: −8,38336
+<880> LL/token: −8,38005
+<890> LL/token: −8,37717
+
+0	0,1	skjul moders såmeget værre søvn nogensinde vundet sneg ridder dømme skjær flytte gjentog malede kraft egn øie skjule tjeneste fortvivlede 
+1	0,1	dybere andet smukke læber kjendte reisende tungt medlidenhed forsvunden fattige speil legeme dunkle byen ryggen sådant ane ædel væk nedad 
+2	0,1	bestemt kolds aldeles næsten ligge dobbelt borte hånd dalen gifte sten inde dagligstuen huslige støvet nærheden skreg forelsket lina middag 
+3	0,1	smerte egentlig mer veien helt række lidende råd spørgsmål husets bryst vågnede morgen herrerne kristiania beslutning fattet ole menneskene blotte 
+4	0,1	hun ham havde kan fra hvor være skulde ingen eller kom hele anden müller mine mand hvis ligesom altid således 
+5	0,1	husker kulde syge tunge hviskede smil klage hel skete travlhed dunkelt græd naturlige resignation fødder skiltes styrte hinanden indflydelse ansigt 
+6	0,1	selv tale vore ven snart næste derom slog enten sagte samtale fremmed lov ude tog sag bragte punkt skrev dets 
+7	0,1	dør ægte imellem trænge arbeide fryd reiser rig mors forvirring beskjeftigede brøchers bruge nævnte tilfælde fiske forsikrer enkelt beskjæftiget rødmende 
+8	0,1	finder kjendt roligt gut sikker virke volde enkelte tie tilfældigt madame græs yndige resigneret håber længsel ubemærket vover sødt herlighed 
+9	0,1	midt kun stå sidder dernede tomme frygtede vinduer stillet giv sind pleie værd derinde reist tusinde minut forresten nærmelse agtelse 
+10	0,1	dragt luften rigtignok modtog pligter skuffe manden røre behøvede nærmeste falden fremad armen barnet frugt stræben tabte forlod heftighed broder 
+11	0,1	greb naturen trang sky margrethe klart giver søger smag brudt sendte omtrent desto uhyre nytte tænkt brast talen undgik kirken 
+12	0,1	hund taus trænger fortalt friske virkelighed stammede altsammen nyde indfald hængte desto stærke ømme hen mænd efterladt afsnit røster skyggen 
+13	0,1	men denne ved sofie sin dette kunde vil dog sagde efter igjen gamle intet hos netop øieblik glæde stille bedste 
+14	0,1	det den jeg ikke der han til som med har mig hende havde hvad noget end kold dig mere disse 
+15	0,1	tanken forundring hvorpå bemærkede begribe familie rystede lokkende gjester vistnok kald skygge pianoet høitidelig slå rørte stue høist alvorlige bevidsthed 
+16	0,1	røst feil stuen hustru mærkværdigt hid sengen indtagende derover tvivle almindelighed hvilende eftermiddag svævede lyden klinge graner behagelige særegen malerisk 
+17	0,1	spor gang mund påfaldende tvivl sangen kirke bestræbte sind praktiske historien frisk træthed vænnet vertinde tilsyneladende scenen ensomhed høire foredrag 
+18	0,1	mente mon dem trøst forsøg skjult opfatning fornøielse interessant blandede bevidstheden letsindig kvindelige fuldt beregnet kjøbenhavn lysten varme tvivlende roligt 
+19	0,1	spurgte væsen vei virkelige afsted kanske drømme forlade deilige kone læste farlige tilbringe dorthe flugt hørt desværre veie forvirret tom 
+20	0,1	tilligemed jorden samtaler kammer brav evige hvid fulgte trofast sænkede dølge overbevisning opførsel gid opdragelse fandtes bedrøvet feil henvendte mands 
+21	0,1	vred breve dybe skjebne skrig sofaen lært bør truffet overmåde dansede præg livlig istand afsked barnlige ansigter hjemmet blomstrende løftede 
+22	0,1	kjole skred forstenet nærme hast overbevise antog fattede ubetinget spøg omhyggeligt kjereste overstået ordet bønder foregået henvende retning kvindens vredt 
+23	0,1	hendes vilde blev blot allerede vor brandt gang endelig gjerne høre side fået bare slags brev slige ligger førend frygt 
+24	0,1	dengang fortvivlet desuden tabt hvile glemmer møllen forsøge fire stien bord dybere mindste håbet ønsker kvindelig vare tørt oprør ligesålidt 
+25	0,1	ligner skarpt talte erindrede latterlige ubevidst værd dagligstuen spurgt udsigt vilkår baggrund tause omhu tusinde gjøre utåleligt engle stiller herrer 
+26	0,1	lægge veltalende deltagelse ære lampen beklage hvergang fornøiet broget værelse skjæbne eventyr mildere kvindelighed ofte bladet velsigne fødder uundværlige tjene 
+27	0,1	halvt meget syg opdaget natten min lune hest daglige smukkeste rørende gråd kommer betragtede mængde tøiet bevares gratie læberne stand 
+28	0,1	drevet fare tillige udvortes følelse spørge negte stå tilværelse itu begavet jer spørg lege tålmodig stemning yde mode pas kors 
+29	0,1	endt forekommer herlige selv omhyggelig behøves fruentimmer enden vidst fatte jordbund berede glæder draget fortjent uvilkårlige nydelige anfald udrydde erklærede 
+30	0,1	falder almindelige bære høit menneskelige mangt dennes skat ramme sprang sande øvede suk dagens fristelsen tusinde eiede rygtet tomt anlæg 
+31	0,1	megen gård sligt fortalte øiet brevet sagen tidlig tilhørte almisse linier fatning taler situation hjertes derefter fat bal ungdommelig dans 
+32	0,1	alvor himlen frelse trappen derved ligget sådanne vende lovet langtfra heftige busk optog brandt tegnede antaget hvælving rolle toppen ligeoverfor 
+33	0,1	drev stansede støtte følge øre værelset tilfælde fulgt bevægelser hvorpå brune farlig bleg fem redde usædvanlig pålagde slutning møie hurtige 
+34	0,1	sammen ilede kræfter oplevet dorthes tages skulle overrasket dorthe bolette eder synneve betragte venlighed bunden hvormange bitterhed retning halt drage 
+35	0,1	sat også yngre grad oppe vis løb lykkes slige udstødte ren skjøn lignende streng blege bønner tidligt erindring greben bevæge 
+36	0,1	sig hans ind gik lille første nogle siden først mellem hjem andre egen inden børn luise barn straks thi dag 
+37	0,1	blevet livets begyndte lykkedes lys vandet sjelden strid hånden tager såre slag deiligt henseende gjort smertelig aparte afslag stråler trådt 
+38	0,1	død trængte drage forgjæves tiden hverken mine fører barns svag stigende kyssede såret slår veiret grebet forenet faders ungdommen mulighed 
+39	0,1	ydre især drog herefter deilig virkeligheden himmel elskværdighed tørre lægge søde største opad glimrende røbe portræt stormende hel aftenen ventede 
+40	0,1	alligevel morgenen skarpe fortjente midler lig bestemmelse stige træt besøge siddende erindrer ramms vågen båden indtrykket forvirrede brug dvæle pent 
+41	0,1	mændene imøde tête dunkel forskrækket hvem der rædsel bøn ladet synlig dør blomsterne standsede smukkere mangengang skaffe års skik stanse 
+42	0,1	penge opholdt tyve heldigvis imøde uvilkårlig træer læste formeget tålmodighed gåde svaret opsigt ydmygende mekanisk lukket lukke god bryllup lidenskab 
+43	0,1	vakt mørke søstrene videre fred byrde lys menneskelig udviklede tænkt svagt krøsus istedet bestod fuldendte begynder såre bor glødende betro 
+44	0,1	ældste krævede bygdens angår norsk skylden kampe kjole dannelse træerne byde alskens røbede forskudt glat sager lyden skriftemål besøg liggende 
+45	0,1	kreds mildt idag hvoraf værelser glade forstand læst stockholm ende virkning hustru kaste særegne taushed blomst bestemte nære vert fløi 
+46	0,1	var dem man skal min når alle endnu alt sit amalie nogen stod pige måtte sådan tid gud mig unge 
+47	0,1	blive ret liv kunne neppe værelse siger ligeså bag tanke udtryk forstod hovedet levende hvide vær taget ligeoverfor egne læse 
+48	0,1	blandt styrke tårer begynde hente kinder døde svar særdeles svaghed sandelig billede skabning livs otte lægen streifede røde hjemkomst skræk 
+49	0,1	venner forstår alder hår overordentlig trin vognen fulde slægt såes åndeløs betingelser forbedring glatte angreb sal folkene bøiet dygtigt salen 
+
+<900> LL/token: −8,37322
+<910> LL/token: −8,37205
+<920> LL/token: −8,38611
+<930> LL/token: −8,36643
+<940> LL/token: −8,37581
+
+0	0,1	liv forlovet bøiede tjent udmærket længsel adas søde eder fraværende forsvandt lille sengen tankefuld mødt brav trådt boede pleier åndede 
+1	0,1	dengang man drømme sæteren ramme hvormed bedre hendes søvn svag dalen blotte slægt tillade skuffe grunde ønsker såmeget ensomme ordentlig 
+2	0,1	sidde hjerte sligt farlige græd fylde høieste hemmelighed ligge lave klar derhen tænk ovenikjøbet vedholdende beundre førstningen været kår mismod 
+3	0,1	besynderlig ønske morgenen stole penge strømme lignede fuldkommen sag rundt bunden beskjeftiget fattet voldsomt farve mariane tal brøchers linier hemmelighed 
+4	0,1	hun ham havde kan fra hvor være skulde eller ingen kom hele anden mine müller mand ligesom altid således hvis 
+5	0,1	strakte derover bedst sandt sagt følt tider ifærd optog væsens brug almindelighed vakker kunne levede behøvede brune elskværdige rygtet værk 
+6	0,1	selv sat enten fremmed sidste lov nemlig derom tilsidst egentlig længere følelser almindelige glæde kolde dets møde mændene føre hør 
+7	0,1	liv himlen megen fare afsted piger lykkes sædvanlige sky skjule venter stillet bemærkede væsener grund tvivl maria behøves fortrolig musiken 
+8	0,1	egne stakkels naturligvis lange urolig lever hidtil udtryk latterlig loftet ilede greb tankerne fuglene sal anders sandelig sider veninde savner 
+9	0,1	vred kjendt stærk hverandre desværre farlig vanskeligt gjester svaghed tjeneste otte yde forrige mama omgivelserne fortvivlet bevægede selskabet rolighed vand 
+10	0,1	miner virkeligheden søn nyt uvillie temmelig fornøielse hos kanske vant tillid pent parti høilig udholdenhed mellem såes nedenunder herskab møllerup 
+11	0,1	greb drage lære lyse breien dybe møllen reiser igjennem hurtigt jorden sådan glæder stilhed dansede fæstet passede rigtignok træthed tørre 
+12	0,1	rig varme tilside mærket sandhed sangen bryde begynder beskjeftigede figur tåle dansen sfære sandt forandret pande rædsel tilbøielighed røbe lege 
+13	0,1	men denne ved sofie dette sin kunde vil dog sagde efter igjen intet gamle netop også hos blive øieblik stille 
+14	0,1	det den jeg ikke der han til som med har mig hende havde hvad noget end kold dig mere disse 
+15	0,1	skridt margrethe taget hånden høi underlig voldt kjøbenhavn røre nære brevet kvinde gifte største rørte besynderlig luises blandede glatte skjebnen 
+16	0,1	igjennem skarpt pianoet venlighed lidende inderste frygtsom besiddelse slutning lidenskabelig intetsigende bred forunderlig livets ment rein måneder historien erklærede pris 
+17	0,1	fire tilligemed åbnede klæde kvindens forfærdet bange mellem fremtid hænde drikke tyst elske tilegne dammen bemærkede griber glimrende frugt møie 
+18	0,1	hine solen bleven tyve stige sande vildt sprang vilje modbydelighed hindrede fraser omtalte broget kapellan forandret sky begavet prøvet udråb 
+19	0,1	friske drømte kone lukket forstå besvaret utålmodighed rødt adskillige spillet opdragelse bevægelser væg savn lysten gjælde snarere tjene øieblikke barnlige 
+20	0,1	suk ulykke tegn umuligt arm sædvanlig rum harmoni rolige talent angreb greben bygdens blomsterne slå menneskelige louise fyldte tilfældigvis ungdommen 
+21	0,1	naturen gård nogensinde blade sand dybere øre mørke hvilede ældste mund mangt truffet derom naturlige ånder heste herlige fører müllers 
+22	0,1	nye udtryk tomme almindelig imellem frisk gammel sød sålænge skjønheden forsøgte gifte steg lægger bitre ene åndeløs skiltes instinktmæssig behage 
+23	0,1	hendes vilde blev blot allerede gang brandt vor endelig gav vore fået gjerne slige høre bare slags næste førend små 
+24	0,1	sang midt grad især igår kolds dernede fødder kampe skygge nyt iver uskyldige åndelige overraskede ængstelse itu skjønt hjertes sorgen 
+25	0,1	finde seng vandet foran grå lød vinduer hvile levende oplevet spørgsmål uvilkårlig hemmelighedsfulde bragt hverken modtog mildt villie forsvunden omgivelse 
+26	0,1	føler længer enkelte bleg vistnok stærke skuffet tvertimod sagte manden passer blanke armen svage ensomme marken bane spring troet uret 
+27	0,1	løfte indenfor dagligstuen talen bliv tvang skjul malede hurtig medlidenhed altsammen forsikrede trods side ledet ane kirke ære yndige hvilende 
+28	0,1	ende gid trænge angår ude læber forstenet byen yderste indtryk kjerlighedens lovede damerne styrte haven skoven forsikrer pludseligt omrids alvorligere 
+29	0,1	louise røde udviklede virkelighed munden vidst person skylden bryder skete tilhøre kirken legeme luise længesiden nydelig vinden historier holden nydelige 
+30	0,1	syg desto fortæller læst være stockholm lide lovet øiet mor betog fornøiet modtage betragtninger markerne besluttede indeholdt stræben frie mode 
+31	0,1	svar synge skrig spil skjær meget forældrene syede stemning snart pligter indtagende bal slag forbauselse ligge busk tilende synke bord 
+32	0,1	herre idag trin forklare blikke hang roligt udstødte rose lidelse langs bøger tillige sikkerhed ilet skinnede benyttes vognen forsømte almindelige 
+33	0,1	kunne tidlig syn breve løb uden piges passe skrev råder selskab egn forbindelser tabe stien ægte mangengang ældre karoline stigende 
+34	0,1	anderledes begge tilbud opgave skjult bør glas sag hundrede finde dyrebare skjøn skjæbne indtrykket taug kjøn friskt forestillede bryllup forstyrrede 
+35	0,1	stumme tårer ren udvortes opdagede øvrige henne ægte forskrækket feighed forvirret aparte vundet fattige bor nævnte bolette mærkeligt almisse særegen 
+36	0,1	sig hans ind gik lille første nogle siden først mellem hjem barn egen straks thi luise god lidet råbte hin 
+37	0,1	tanker stå naturlig forskrækket sagen kvindelig fjerne bevogtede optaget høitidelig opfyldt håret begivenheder endt overbevisning livslyst ædru rørende juni forkyndte 
+38	0,1	hænderne høit yngre ældre krøsus lokkende lykken sendte seks dyrebareste bevidstheden heldigvis glemt arbeidet gulvet ædelt speil passer afslag udmærkede 
+39	0,1	stuen bog død mening ydre videre deilige fandtes bevægelser mangel glemt kolds trætte rædsel ytringer vækket forskjel småpiger jordiske klasse 
+40	0,1	overalt fortælle umuligt fortalte forgjæves taushed vending hjerte træde beroliget rystede eftermiddag hygge vert sorte bladene stormende landskab planer brystet 
+41	0,1	blevet streng fryd ridder bevares stammede punkter billedet slået ledsaget smukkere behagede lukke skinnet hvoraf erfaret uundværlige forsøg simple mildere 
+42	0,1	smilende værd tom damerne hinanden herefter skikket brandts krog fordringer lidelser talte gjaldt betroede personlighed beslutning støvet bestemmelse dybet nerver 
+43	0,1	lys himmel mest tegn villie stakkels tages plage fremad veg henimod eventyr fod vid gråd underligt efterhånden bragt pibe læge 
+44	0,1	hvortil forstået udtalte levende kvinde skat sneg kinder overmåde hund sort aften blomstrende førte duft åndelige sænkede skatte lægge træder 
+45	0,1	familien mands mangen formodentlig herrer møllerup bedrøvet ilde yngre ulykkelig vold såmeget siddende oprigtig betydning margrethes tie erindringer tilbageholdenhed nærværelse 
+46	0,1	var dem man skal min når alle endnu alt sit amalie nogen stod pige måtte sådan andre tid vel gud 
+47	0,1	ret neppe hørt burde vedblev tilfælde vær liv mor hvide amalies nåede menneskene tilværelse ivrig kom inden hint tanke ladet 
+48	0,1	sind hovedet holder mer traf fortalt synet tilbringe begynde heftighed stødte hest valg stå alvorlige mærkværdigt romaner hesten besynderligt beregnet 
+49	0,1	fløi selskabet derimod moderen ømhed indgangen tilstede faren tre goder modig formåede fint nysgjerrighed forekommenhed sendt nedlagde består nævnt gal 
+
+<950> LL/token: −8,37376
+<960> LL/token: −8,37611
+<970> LL/token: −8,38193
+<980> LL/token: −8,37389
+<990> LL/token: −8,38265
+
+0	0,1	pause morgenen dets par stole tidlig søn naturlig stillet farlige mærker hang dagligstuen blandede langsomt fulde åndelige giver forsvunden bleven 
+1	0,1	imøde kjendt dermed længer lidende huslige blevne trappen håbet håber lyset planer løftede lægger ophøiede fandtes hængte skjærende sandsynligvis heldig 
+2	0,1	tilsidst udbrud dennes besøg hurtigt opsøge munden øvrige ridder fjern lagt modtog onde parti virkning omgivelserne ubevægelig formodentlig blevne forstillelse 
+3	0,1	opholdt græd enkelte berørte uret vide tone virksomhed deltagelse tænk lide rødt stockholm klæde såret såes kapellanen bitter spænding hjertelig 
+4	0,1	hun ham kan havde fra være hvor skulde eller ingen kom hele anden mine müller mand hvis ligesom altid således 
+5	0,1	kalde hvide streng lovet rigtignok udholdenhed holdning gjælder forbauselse stue dragt alder forelskelse nævnte både beboerne støder hid bly prindsesse 
+6	0,1	selv kunne lov søge fremmed møde nogensinde rent række skade samtalen natur hjemmet mild kolde egentlig længere trin fattet krøsus 
+7	0,1	liv blevet burde kanske kone pligter styrte skjul flere forskjellige sagen ovenpå skuffelser nærmede fornøiet egnen gik henimod råder hensyn 
+8	0,1	hverken sagte forundring nåede røre luft voldsomt veltalende elendighed hvergang svar ungdommelige helt vækker verdens vanskelig akkurat efterlod derimod grav 
+9	0,1	præg deiligt bøger hviskede forskrække forreste døren natten egen velsignelse særegen solen sang trist passe bagefter slukkede lokket bemærke hid 
+10	0,1	jomfru snart skjulte omhyggelig hvorved forladt begavede fortrolig opfyldt derinde forelsket tildels præstegjeld livlige samvittighed lystige tvungen anger helst vandfarve 
+11	0,1	greb altså drage udbrød lære husker følelser ivrig jorden rene breien glemmer skreg lader føre tillid ren kvinde begreb tabte 
+12	0,1	moderen skrev fortalte stedet overrasket tvertimod tilfældet trykkede kinder behag armene duer stund kreds derefter udsigt bereder individualitet fiske ubeskrivelig 
+13	0,1	men ved denne sofie dette sin kunde vil sagde dog igjen også gamle intet netop hos blive øieblik glæde stille 
+14	0,1	det den jeg ikke der han til som med har havde mig hende noget hvad end dig mere disse kold 
+15	0,1	kristiania naturligvis anderledes mening drømme dernede forskrækket igår venter indgangen tjent begivenheder stolt markerne nedlagde lettere skaffe almindelighed yderst mænd 
+16	0,1	aften dammen fortjente særegne brevet dans kirken pleie søde ånder skrevet råd overmåde borde fordringer ville boede ane frelse stilhed 
+17	0,1	syge sandhed ende pigen træffe vinden alvorlige piger læst smukkeste uskyldige underlig herrerne kjøbenhavn vilje eventyr yde jeg luft hviskede 
+18	0,1	tegn rakte næste færdig små amalies dalen reisen land elev voksen giv svag hidtil blomstrende engang træer skete aparte fører 
+19	0,1	drev guds større forsikrede røst forsikrer endte bort ægte trofast flytte øiet sider skatte længsel lampen frygtede veie interesse rørt 
+20	0,1	flere kald skjule musiken fortalt ligget forståeligt forgjæves vort glimrende indtagende ilede pibe rystede frygt skarp sandere tilbud tilfældigt ligesålidt 
+21	0,1	sted virkelige mændene søstrene desto vindu hverandre kaste grønne krogen mund børnene interessant drømmer nytter øre hænderne sjels åbnede nede 
+22	0,1	vakt dens tilstede berolige hør kræfter befandt henseende sten hverandre bede ydre fruentimmer tænker ophold stand passende bruge skinnende dæmpet 
+23	0,1	hendes vilde blev blot allerede gang vor unge brandt endelig lille vore gav slige gjerne fået gammel kold livet skræk 
+24	0,1	tilværelse dog skabning mangt skjøn føle begynder husets hørte grunde frygtelige indeholdt bekjendtskab flugt kapellan fuldendte skrev forretninger ikke pludseligt 
+25	0,1	klokken læste spillede sprog elskværdige figur trøst søger hemmelighed danmark vendte rose virkelighed fem karakter farve mørkt livlig træde klang 
+26	0,1	fuld klæder breve rørte håb landet forlade savn begynde tyve offer daglige heroppe deilig bange tvang tolv blad elendige vemodig 
+27	0,1	enten bøiede støtte trænge ånd bevægede ordentlig rundt modtage toner samtale frisk sengen husholdersken åndeløs lege blinkede forstyrret hjørnet nedenunder 
+28	0,1	lykkelige midt sag værste mangen opsigt møllen halt oprømt bitterhed vant livligt gjaldt klasse gåde müllers personer ulykkelige truede glasdøren 
+29	0,1	stærk anede rigtigt ligner juni nylig alvorlig blege huske blandt reddet omrids bevæge forsøg blussende ventedes forlanger uafladelig sluttede høire 
+30	0,1	nemlig sidde skoven desværre dansede gård kvindens linier villie ufrivillige hytte stærkere manden sikkerhed blikke studenten menneskelig sommernat småpiger samfund 
+31	0,1	frue derover person sind såmeget alleen passeret roligt underlige betog ungdommen svaret blomsterne vid halve heftige studsede nærer koldt led 
+32	0,1	forstod naturen kolds oplevet varme nye himlen sålænge ned ilde efterat norsk forhold vinde tête stakkels vare stræbte rystede menneske 
+33	0,1	taget vilde møllerup fruens uvilkårlig bestemmelse mente klage naturligt flor forvirret sluttede omhu plage tvivlende lig fattede rolighed bladene nerver 
+34	0,1	fordi smil blade herligt skjult stenen istand spørge foregået tilligemed vendt tomme ydre mulighed udbredt portræter hurtighed talent lange luise 
+35	0,1	margrethe bevægelser forladt dunkel vending intet strakte ramms bliv bærer varm slutning anskuelser hverv erstatte reist udvikle flasker lutter mangen 
+36	0,1	sig hans ind første tid nogle mellem først hjem bedste lille neppe barn gik inden egen straks bevægelse luise god 
+37	0,1	almindelige opdaget evne værelset pent feighed fat fristelsen særdeles forskjel fraser dannelse med imorgen pinlige hindrede tilbageholdenhed himlens tom beklagelser 
+38	0,1	pris historie hjælper afslag forsøgte bittert forlovet virker almindelig hvo velstand veg omstændigheder s'gu læse misforstår tårestrøm farligt lyder modsætning 
+39	0,1	hel derpå egne glemte svaghed førend heftighed midt langs adspredt frugt behøves overalt vende broget kjøn guld goder hvorhen rakt 
+40	0,1	mildt skjønne finder mon smertelig oprigtig kammer misforståelse speil orden skygge opfatning smerteligt forstået voksne stød bragte redning gårdens draget 
+41	0,1	finde sidder værelser læber faderen tager ømme bevidstheden livet daglig fod døre fuglen mandens retning spadserende faret utålmodig sende evner 
+42	0,1	vakte søsteren idetmindste lærer stolthed uendelig villig passer forekommer friske høiere forenet udstødte ilede strax ønskede forlod leilighed bekymring træerne 
+43	0,1	dybere farvel både trængte hårdt ældre nytte hvide reisende livs dorthes høitidelig fremfor bryllup skjød mærkværdigt væg altså ædle forstyrrer 
+44	0,1	hovedet idelig fødder tillige fortælle synneve sandelig erindrer ole havestuen skjær farlig hjælp bekjendte slår indtrykket nærme bah lukke virkeligheden 
+45	0,1	desuden seng ret høi fred eneste voldte luises taushed jordbund behage syede pragt uorden viser forsigtig formeget ordknap mode borgerlige 
+46	0,1	var dem man skal når alle min endnu alt sit stod nogen meget pige måtte sådan andre gud andet hen 
+47	0,1	ret hørt lyse fader førend tre strålende løb skrig dybe rig sorg taus forandret beundring egentlige tilbringe syn valg værre 
+48	0,1	ladet alting høit imellem fare forrige grå nærværelse egne hemmelighedsfulde forgjæves længere adolf burde ide morgen beroliget hovedet inderlig maria 
+49	0,1	navn eier gjentog trak bære heste brune falder tages korte gjester spillet største mekanisk stigende tidsnok turen fin stige forstyrrende 
+
+<1000> LL/token: −8,37109
+
+Total time: 10 seconds
+(base) heidikarlsen@MacBook-Pro-de-Heidi Mallet % 
